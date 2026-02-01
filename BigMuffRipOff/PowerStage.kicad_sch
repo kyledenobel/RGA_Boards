@@ -2455,7 +2455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adp7118.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/ADP7118AUJZ-4-5-R7/6599734?s=N4IgjCBcpg7LBOKoDGUBmBDANgZwKYA0IA9lANogBMADABwCsVALCALrEAOALlCAMrcATgEsAdgHMQAX2nEqFEJgAmnWGDB120oA"
 			(at 64.77 66.04 0)
 			(effects
 				(font

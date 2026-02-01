@@ -1356,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 76.2 88.9)
+			(xy 64.77 85.09) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 76.2 67.31)
+			(xy 76.2 85.09) (xy 76.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2849,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 86.36)
+		(at 33.02 82.55)
 		(size 31.75 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2865,7 +2865,7 @@
 		)
 		(uuid "9c4ea423-45dc-41e8-bcfc-159994b85e4f")
 		(property "Sheetname" "PowerStage"
-			(at 40.64 85.6484 0)
+			(at 33.02 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2874,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerStage.kicad_sch"
-			(at 40.64 117.4246 0)
+			(at 33.02 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 40.64 86.36 0)
+			(at 33.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2891,7 @@
 			)
 		)
 		(pin "LDO_EN" input
-			(at 72.39 88.9 0)
+			(at 64.77 85.09 0)
 			(uuid "88239aa9-d397-415d-81c0-f9cebe7d833e")
 			(effects
 				(font
