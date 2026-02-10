@@ -3002,9 +3002,9 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO" input
-			(at 203.2 93.98 180)
-			(uuid "703ed774-6a6c-4f46-b80b-735fcde238e2")
+		(pin "CS_4" input
+			(at 203.2 109.22 180)
+			(uuid "779a44d4-653c-4bc7-aad1-42784d640ad3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,9 +3012,9 @@
 				(justify left)
 			)
 		)
-		(pin "CS_4" input
-			(at 203.2 109.22 180)
-			(uuid "779a44d4-653c-4bc7-aad1-42784d640ad3")
+		(pin "SPI_MOSI" input
+			(at 203.2 93.98 180)
+			(uuid "50bbc7bc-d7d2-4fce-b88e-08af01015195")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,16 +3067,6 @@
 		(pin "SPI_CLK" output
 			(at 182.88 90.17 0)
 			(uuid "3ba854c7-4c37-40be-9fc1-05bf4bf08800")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI_MISO" output
-			(at 182.88 93.98 0)
-			(uuid "753fc3bd-a5cf-4634-874c-741f5993ae21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,14 +3144,14 @@
 				(justify right)
 			)
 		)
-		(pin "LDO_EN" input
-			(at 149.86 88.9 180)
-			(uuid "23a236e7-bbcf-44a3-a7e3-b920a6ae9a5b")
+		(pin "SPI_MOSI" output
+			(at 182.88 93.98 0)
+			(uuid "60db0a11-5c36-4bb6-af32-6bd96b6cc662")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
