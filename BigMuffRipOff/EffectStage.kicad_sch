@@ -3520,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 520.7 100.33) (xy 520.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9af6142-8173-40da-bb39-f402b6a3309d")
+	)
+	(wire
+		(pts
 			(xy 58.42 92.71) (xy 68.58 92.71)
 		)
 		(stroke
@@ -3731,7 +3741,7 @@
 		)
 		(uuid "0bffb4e7-8463-43b3-aaaf-79ef00d84a86")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 447.04 140.97 180)
 		(effects
@@ -3742,7 +3752,7 @@
 		)
 		(uuid "19b97e6e-da92-4d75-9a40-8e22855c56b3")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 445.77 87.63 180)
 		(effects
@@ -3786,7 +3796,7 @@
 		)
 		(uuid "6ed3c251-07e6-43da-a859-a08dc9f70001")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 134.62 82.55 180)
 		(effects
@@ -3808,7 +3818,7 @@
 		)
 		(uuid "92e03933-a768-4cd8-a145-194ae48ed40f")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape input)
 		(at 356.87 69.85 180)
 		(effects

@@ -3304,6 +3304,10 @@
 		(uuid "12348b4a-5f0c-4add-91dd-521eaca81618")
 	)
 	(no_connect
+		(at 69.85 72.39)
+		(uuid "1989195d-71ef-4492-995a-bef668642f5c")
+	)
+	(no_connect
 		(at 69.85 67.31)
 		(uuid "24ee6e44-c85d-47a8-9b09-b83e230b57cb")
 	)
@@ -3328,6 +3332,10 @@
 		(uuid "71199eb9-fe0a-4af9-9ab2-18b6f0b836a8")
 	)
 	(no_connect
+		(at 69.85 90.17)
+		(uuid "871dd807-eced-489f-815a-e460715dd169")
+	)
+	(no_connect
 		(at 146.05 62.23)
 		(uuid "8e0cdae8-a5db-4865-8723-96a8897641b5")
 	)
@@ -3340,20 +3348,12 @@
 		(uuid "a0d8258f-6d23-4f8f-934a-d77567fa049a")
 	)
 	(no_connect
-		(at 69.85 90.17)
-		(uuid "a5516bc8-0403-4cbe-9ed4-913af391d911")
-	)
-	(no_connect
 		(at 146.05 64.77)
 		(uuid "ca1b267b-1674-45a0-8b1e-a7f0cb8cf15c")
 	)
 	(no_connect
 		(at 146.05 52.07)
 		(uuid "df8dcaf5-1845-4f20-b59f-e324aa4c1d04")
-	)
-	(no_connect
-		(at 69.85 87.63)
-		(uuid "e90ce453-e8a8-41cd-a2f9-7cd55e2f6c6e")
 	)
 	(no_connect
 		(at 69.85 57.15)
@@ -3381,6 +3381,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 77.47) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b460dcc-b551-49ed-8a48-80a73688e991")
+	)
+	(wire
+		(pts
 			(xy 66.04 127) (xy 40.64 127)
 		)
 		(stroke
@@ -3401,6 +3411,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e45dfd-2230-463c-be24-86411cb7dd2e")
+	)
+	(wire
+		(pts
 			(xy 148.59 85.09) (xy 146.05 85.09)
 		)
 		(stroke
@@ -3411,6 +3431,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 82.55) (xy 69.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337fbd1e-ee04-49dc-bb73-93a86c969d09")
+	)
+	(wire
+		(pts
 			(xy 38.1 54.61) (xy 38.1 59.69)
 		)
 		(stroke
@@ -3418,16 +3448,6 @@
 			(type default)
 		)
 		(uuid "3c3b639b-278a-440a-80b8-b1692827caeb")
-	)
-	(wire
-		(pts
-			(xy 64.77 72.39) (xy 69.85 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "443f161a-5cc2-4cdf-8763-e3e0927a04f2")
 	)
 	(wire
 		(pts
@@ -3481,13 +3501,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 80.01) (xy 69.85 80.01)
+			(xy 64.77 87.63) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ec4b983-49ea-44c7-8cdb-64c71e94b954")
+		(uuid "6947da87-72d4-40c5-b90c-a464e0fe3170")
+	)
+	(wire
+		(pts
+			(xy 64.77 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7261ad58-b3b6-49b2-8623-2e846e31910b")
 	)
 	(wire
 		(pts
@@ -3581,26 +3611,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 77.47) (xy 69.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4ef852-510e-42ee-ae41-ae2f8efcf3f6")
-	)
-	(wire
-		(pts
-			(xy 64.77 82.55) (xy 69.85 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ecda1c-e782-442b-bc04-8f05e510af28")
-	)
-	(wire
-		(pts
 			(xy 66.04 115.57) (xy 66.04 127)
 		)
 		(stroke
@@ -3641,13 +3651,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 69.85 74.93)
+			(xy 64.77 80.01) (xy 69.85 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df22afcf-6a09-415d-80d5-85b1662e58cf")
+		(uuid "cea26f30-88b1-4e45-83b7-4e83f5ed9aed")
 	)
 	(wire
 		(pts
@@ -3668,16 +3678,6 @@
 			(type default)
 		)
 		(uuid "e506b120-ac15-4821-9517-293816b886f0")
-	)
-	(wire
-		(pts
-			(xy 64.77 85.09) (xy 69.85 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6f6d89-005f-485a-9c4c-ba92d9c1b573")
 	)
 	(wire
 		(pts
@@ -3801,7 +3801,7 @@
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape output)
-		(at 64.77 72.39 180)
+		(at 64.77 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 	)
 	(hierarchical_label "CS_1"
 		(shape output)
-		(at 64.77 85.09 180)
+		(at 64.77 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3832,9 +3832,9 @@
 		)
 		(uuid "2a2462d2-3c0d-436c-af4e-75164e1ebbd3")
 	)
-	(hierarchical_label "SPI_MISO"
+	(hierarchical_label "SPI_MOSI"
 		(shape output)
-		(at 64.77 74.93 180)
+		(at 64.77 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3845,7 +3845,7 @@
 	)
 	(hierarchical_label "CS_2"
 		(shape output)
-		(at 64.77 82.55 180)
+		(at 64.77 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3856,7 +3856,7 @@
 	)
 	(hierarchical_label "CS_3"
 		(shape output)
-		(at 64.77 80.01 180)
+		(at 64.77 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
