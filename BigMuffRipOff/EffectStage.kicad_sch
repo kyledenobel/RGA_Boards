@@ -5448,7 +5448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BC549/974184"
 			(at 250.19 82.55 0)
 			(effects
 				(font
@@ -9256,7 +9256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BC549/974184"
 			(at 425.45 69.85 0)
 			(effects
 				(font
@@ -10542,7 +10542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BC549/974184"
 			(at 115.57 92.71 0)
 			(effects
 				(font
@@ -10722,7 +10722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/BC549/974184"
 			(at 332.74 82.55 0)
 			(effects
 				(font
