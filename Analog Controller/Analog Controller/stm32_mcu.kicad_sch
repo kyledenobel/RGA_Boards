@@ -1,0 +1,173 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f9f8e41d-037f-49bb-88ab-ecad9330134d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 180.975 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08675bd7-0cb9-47ad-80ce-a1de4bace722")
+	)
+	(hierarchical_label "CS_4"
+		(shape input)
+		(at 180.975 117.475 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1be21bff-07e9-4e34-b499-9b9b9c05a8c4")
+	)
+	(hierarchical_label "CS_8"
+		(shape input)
+		(at 180.975 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "303e829a-1b31-4115-941d-5a0c6104f01e")
+	)
+	(hierarchical_label "CS_7"
+		(shape input)
+		(at 180.975 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3554a664-0773-4370-b9fc-6da37a3a4fa3")
+	)
+	(hierarchical_label "CS_0"
+		(shape input)
+		(at 181.61 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3acc0ac3-aa38-475a-9967-44ac12d9bad3")
+	)
+	(hierarchical_label "CS_3"
+		(shape input)
+		(at 180.975 113.665 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72b7d869-c2bf-4b6a-80be-2db170748174")
+	)
+	(hierarchical_label "CS_6"
+		(shape input)
+		(at 180.975 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79db7ba7-d6e2-4f41-9490-dba76b27370f")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 180.975 93.345 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0d8c6d2-e3d1-4386-84bf-2413749b6021")
+	)
+	(hierarchical_label "CS_1"
+		(shape input)
+		(at 180.975 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a69e1f50-dbbb-4b0e-b805-2ff80bd6429b")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 180.975 100.965 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd42ed6c-85a8-434f-be9c-35d5a2415f3b")
+	)
+	(hierarchical_label "CS_2"
+		(shape input)
+		(at 180.34 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10ec463-2c71-4faf-bdc6-6f7503d83792")
+	)
+	(hierarchical_label "POT_ADC_1"
+		(shape input)
+		(at 180.975 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d45147a1-7e70-46f2-a9e9-7c431be40aa0")
+	)
+	(hierarchical_label "CS_5"
+		(shape input)
+		(at 180.975 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2f264ef-3f51-4825-8bc3-3ec65a58f6d0")
+	)
+	(hierarchical_label "POT_ADC_2"
+		(shape input)
+		(at 180.975 141.605 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4be01b8-fb59-4f95-a2ea-867b889fc173")
+	)
+	(hierarchical_label "POT_ADC_0"
+		(shape input)
+		(at 180.975 133.985 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6121abb-47af-4466-8767-274bd98b2a13")
+	)
+)
