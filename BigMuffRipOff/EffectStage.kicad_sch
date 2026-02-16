@@ -1519,12 +1519,6 @@
 		(uuid "224a1a30-9445-4e1a-9533-53cc669ade28")
 	)
 	(junction
-		(at 565.15 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0592b62e-0676-45e4-8d73-0700ed3d8bb6")
-	)
-	(junction
 		(at 486.41 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1535,6 +1529,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "203758d0-56c4-4da3-b3ac-5a983ed39efc")
+	)
+	(junction
+		(at 502.92 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b9d8c12-8c04-4c4f-bab2-ebdea34e9ff0")
 	)
 	(junction
 		(at 217.17 69.85)
@@ -1675,6 +1675,12 @@
 		(uuid "9d1baec7-8a36-411b-b806-4c7fb7970ac2")
 	)
 	(junction
+		(at 502.92 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d626bde-4c91-4e8d-bf9e-4c6cba46aeed")
+	)
+	(junction
 		(at 232.41 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1705,6 +1711,12 @@
 		(uuid "c7de522d-685d-4d89-aeb3-b495ac7dc8f4")
 	)
 	(junction
+		(at 546.1 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb906ae-81fc-4073-b640-2f5eb9f60501")
+	)
+	(junction
 		(at 299.72 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1715,12 +1727,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1571af7-6514-40fb-99d4-9393efbe35f1")
-	)
-	(junction
-		(at 546.1 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e505e5a5-2493-48a2-a634-c78eddea05d9")
 	)
 	(junction
 		(at 541.02 85.09)
@@ -1739,6 +1745,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f08d77bb-c1e4-4f9e-9d07-a71418d7c9fe")
+	)
+	(junction
+		(at 565.15 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f438f610-178f-4b85-b480-44d95a44f082")
 	)
 	(junction
 		(at 229.87 43.18)
@@ -1804,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 109.22) (xy 565.15 109.22)
+			(xy 546.1 111.76) (xy 565.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1821,6 +1833,16 @@
 			(type default)
 		)
 		(uuid "0706751f-9485-4d9b-989a-63442d661805")
+	)
+	(wire
+		(pts
+			(xy 502.92 87.63) (xy 509.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074b6585-0ac7-4537-848e-9290b93dcb0c")
 	)
 	(wire
 		(pts
@@ -2094,7 +2116,17 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 116.84) (xy 565.15 116.84)
+			(xy 502.92 135.89) (xy 502.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275d326b-4305-4f28-8c42-1880c987981e")
+	)
+	(wire
+		(pts
+			(xy 557.53 120.65) (xy 561.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 102.87) (xy 546.1 109.22)
+			(xy 546.1 102.87) (xy 546.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 140.97) (xy 509.27 140.97)
+			(xy 499.11 140.97) (xy 502.92 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2241,6 +2273,16 @@
 			(type default)
 		)
 		(uuid "31ef5f60-e4d0-4e3e-a923-296ced5a018d")
+	)
+	(wire
+		(pts
+			(xy 561.34 120.65) (xy 561.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f4e9f7-b9c9-445c-99a2-b6b3a9d5d652")
 	)
 	(wire
 		(pts
@@ -2501,6 +2543,16 @@
 			(type default)
 		)
 		(uuid "53664c14-da5c-435a-957b-52e39ac9d764")
+	)
+	(wire
+		(pts
+			(xy 546.1 111.76) (xy 546.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ae6e61-c923-4a30-8599-9859eae76bf6")
 	)
 	(wire
 		(pts
@@ -2824,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 140.97) (xy 509.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df6a001-6c0f-4532-baa4-27b2a9191ad3")
+	)
+	(wire
+		(pts
 			(xy 486.41 85.09) (xy 482.6 85.09)
 		)
 		(stroke
@@ -2851,6 +2913,16 @@
 			(type default)
 		)
 		(uuid "91484cdb-45e9-40af-a7c6-b51b75a07fb9")
+	)
+	(wire
+		(pts
+			(xy 502.92 82.55) (xy 502.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941b34ce-8bf1-4550-b17f-a60e08fc5f67")
 	)
 	(wire
 		(pts
@@ -2954,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 87.63) (xy 509.27 87.63)
+			(xy 499.11 87.63) (xy 502.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3254,16 +3326,6 @@
 	)
 	(wire
 		(pts
-			(xy 565.15 109.22) (xy 565.15 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be186466-6a71-4fec-b58e-7effc737ea46")
-	)
-	(wire
-		(pts
 			(xy 443.23 71.12) (xy 452.12 71.12)
 		)
 		(stroke
@@ -3334,16 +3396,6 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 109.22) (xy 546.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c295e0a8-470c-475f-8376-544c059ca734")
-	)
-	(wire
-		(pts
 			(xy 335.28 69.85) (xy 335.28 77.47)
 		)
 		(stroke
@@ -3401,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "cf0dbdaa-650b-4252-9a26-0d276c2e1d86")
+	)
+	(wire
+		(pts
+			(xy 561.34 116.84) (xy 565.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15fb9f4-13a4-47ba-b987-25e4a6b64485")
 	)
 	(wire
 		(pts
@@ -3614,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 565.15 109.22) (xy 565.15 90.17)
+			(xy 565.15 90.17) (xy 565.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5410,6 +5472,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 502.92 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31757e20-4b54-4c57-a7f4-e08158b3e899")
+		(property "Reference" "#PWR055"
+			(at 502.92 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "4.5V"
+			(at 502.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 502.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 502.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2640bf9-e14d-4cd5-9b3f-338074febebb")
+		)
+		(instances
+			(project "BigMuffRipOff"
+				(path "/ee7a6669-1f80-4e5e-942b-cae2c32afcf3/cc61f787-c881-4bf8-bc84-97b283f90893"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC549")
 		(at 250.19 82.55 0)
 		(unit 1)
@@ -6427,7 +6555,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 560.07 116.84 0)
+		(at 557.53 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6436,7 +6564,7 @@
 		(fields_autoplaced yes)
 		(uuid "50356df3-7787-4344-9059-937fbd195042")
 		(property "Reference" "#PWR032"
-			(at 560.07 120.65 0)
+			(at 557.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6573,7 @@
 			)
 		)
 		(property "Value" "4.5V"
-			(at 560.07 111.76 0)
+			(at 557.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 560.07 116.84 0)
+			(at 557.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 560.07 116.84 0)
+			(at 557.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 560.07 116.84 0)
+			(at 557.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,6 +8421,72 @@
 			(project "BigMuffRipOff"
 				(path "/ee7a6669-1f80-4e5e-942b-cae2c32afcf3/cc61f787-c881-4bf8-bc84-97b283f90893"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 502.92 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b90b29-3f31-4351-8c60-0fcfbb8b7cb2")
+		(property "Reference" "#PWR056"
+			(at 502.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "4.5V"
+			(at 502.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 502.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 502.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ca098b-e7df-479e-9ddd-c16accfa566a")
+		)
+		(instances
+			(project "BigMuffRipOff"
+				(path "/ee7a6669-1f80-4e5e-942b-cae2c32afcf3/cc61f787-c881-4bf8-bc84-97b283f90893"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
