@@ -4,4 +4,5 @@
   (lib (name "footprints")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/molex_2x1_39281023/footprints.pretty")(options "")(descr ""))
   (lib (name "Daisy-Boards")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/DaisyKiCad-main/Daisy-Boards.pretty")(options "")(descr ""))
   (lib (name "TS12A12511DCNR")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/TS12A12511DCNR")(options "")(descr ""))
+  (lib (name "TMV_1205D")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/TMV_1205D")(options "")(descr ""))
 )

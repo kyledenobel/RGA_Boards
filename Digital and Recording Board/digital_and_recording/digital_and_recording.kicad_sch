@@ -18,6 +18,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 85.09) (xy 113.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078a7df4-78f9-46d8-a123-1a498b43a343")
+	)
+	(wire
+		(pts
 			(xy 113.03 85.09) (xy 100.33 85.09)
 		)
 		(stroke
@@ -88,16 +98,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4100a149-a45c-46f1-9dc9-ac4a2306f081")
-	)
-	(wire
-		(pts
 			(xy 154.94 92.71) (xy 180.34 92.71)
 		)
 		(stroke
@@ -105,6 +105,16 @@
 			(type default)
 		)
 		(uuid "49eac251-3f8e-465a-b15d-ef093e1bedd6")
+	)
+	(wire
+		(pts
+			(xy 113.03 125.73) (xy 180.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c662fe8-4815-4042-b33c-0c89b958f39b")
 	)
 	(wire
 		(pts
@@ -118,16 +128,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 129.54) (xy 180.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef59380-7616-4387-a586-a65034a7ffff")
-	)
-	(wire
-		(pts
 			(xy 119.38 78.74) (xy 119.38 121.92)
 		)
 		(stroke
@@ -135,6 +135,16 @@
 			(type default)
 		)
 		(uuid "79a9d68c-4f63-4046-bc58-993c3edf83ce")
+	)
+	(wire
+		(pts
+			(xy 109.22 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d366347-2d72-406c-a703-e142db69b423")
 	)
 	(wire
 		(pts
@@ -178,6 +188,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 90.17) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e4ef12-eda7-4558-944e-36ac189c3a5a")
+	)
+	(wire
+		(pts
 			(xy 154.94 105.41) (xy 180.34 105.41)
 		)
 		(stroke
@@ -215,6 +235,16 @@
 			(type default)
 		)
 		(uuid "d6843cc6-8869-4981-ae94-1646f334b8d2")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dd75e6-d833-453f-b2b2-f1ceff933928")
 	)
 	(sheet
 		(at 76.2 69.85)
@@ -263,6 +293,16 @@
 		(pin "12V" input
 			(at 100.33 85.09 0)
 			(uuid "9ae55172-108a-4d60-bdc7-afb21461bd65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-5V" input
+			(at 100.33 90.17 0)
+			(uuid "b785a600-8f4f-43f5-915c-3329007ce2dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +634,7 @@
 			)
 		)
 		(pin "12V" input
-			(at 180.34 129.54 180)
+			(at 180.34 125.73 180)
 			(uuid "f31fa6c1-0f5a-4886-9522-d418c3de7964")
 			(effects
 				(font
@@ -636,6 +676,16 @@
 		(pin "Output Select" input
 			(at 180.34 105.41 180)
 			(uuid "a99cfd20-11b7-4a44-9bb9-38ceeb36d968")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-5V" input
+			(at 180.34 129.54 180)
+			(uuid "76579acb-c8eb-45c7-ab4e-3633d6543f4a")
 			(effects
 				(font
 					(size 1.27 1.27)
