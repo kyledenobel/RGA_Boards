@@ -1,0 +1,660 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5074a352-7a9b-47ff-bda0-b973f990e136")
+	(paper "A4")
+	(title_block
+		(title "Digital and Recording Board")
+		(date "2026-02-21")
+		(company "RGA")
+	)
+	(lib_symbols)
+	(junction
+		(at 119.38 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feed5452-942f-43f8-a797-33c915d2956a")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115984e1-742c-44e0-8136-d0d82605337b")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13255f7d-45dd-45d9-804e-f4fa6182daac")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e04ddc-d93e-4f1b-bdbd-4a1aa6c75989")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20194943-41bd-4655-b122-04b997c41fe3")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 180.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ce78cc-18b7-4606-a1a2-01f9710025dc")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2706146c-c9d6-459a-9b63-d61c44ac2e5e")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b83c7f-10be-4bf6-8c6e-9284740b177b")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4100a149-a45c-46f1-9dc9-ac4a2306f081")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49eac251-3f8e-465a-b15d-ef093e1bedd6")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c27e868-40e0-4ca5-bd69-e1756b9ce28e")
+	)
+	(wire
+		(pts
+			(xy 113.03 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef59380-7616-4387-a586-a65034a7ffff")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a9d68c-4f63-4046-bc58-993c3edf83ce")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905f2e61-3a2c-4efc-9801-570bd3d1fbbd")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9575020c-9182-4b8a-af3a-eb3c47c32115")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a488c74d-781b-43cb-a1ef-3eaf6ef9ea36")
+	)
+	(wire
+		(pts
+			(xy 154.94 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d8ea0e-211a-4e2b-9a17-f196c0592763")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd431784-8605-4738-9a72-7ad4ce2df7d2")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 180.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c472bd00-bfbc-4c11-998e-90a300d1cb17")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d622dc34-4bac-453d-b718-ba1dd4e5ad0e")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6843cc6-8869-4981-ae94-1646f334b8d2")
+	)
+	(sheet
+		(at 76.2 69.85)
+		(size 24.13 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36d5c71e-74c7-43cc-bd0d-e12957646680")
+		(property "Sheetname" "Power"
+			(at 76.2 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DR_power.kicad_sch"
+			(at 76.2 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 100.33 78.74 0)
+			(uuid "080c93ad-8a34-4f4d-b4f2-5a1f8d59b32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 100.33 85.09 0)
+			(uuid "9ae55172-108a-4d60-bdc7-afb21461bd65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_and_recording"
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 69.85)
+		(size 21.59 47.625)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e1b4670-3aee-4906-8a84-f1e24e4be1f7")
+		(property "Sheetname" "Daisy Seed"
+			(at 133.35 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DR_daisy_seed.kicad_sch"
+			(at 133.35 118.0596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 133.35 78.74 180)
+			(uuid "a51c2a61-d9a6-48c0-a9f6-f77e7a6bcb84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_Analog" input
+			(at 154.94 72.39 0)
+			(uuid "d96c5f47-ea58-41e2-8c34-f083cde402d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Daisy_RX" input
+			(at 154.94 74.93 0)
+			(uuid "f714d32b-d560-4e38-858d-53c7ff36492e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Daisy_TX" input
+			(at 154.94 77.47 0)
+			(uuid "aaf7458b-9ef9-4da5-b775-6be78564eef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Screen_Reset" input
+			(at 154.94 80.01 0)
+			(uuid "f0b0ce4f-d783-40a4-b7a1-a9fa5344bc59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Sel_Joystick" input
+			(at 154.94 82.55 0)
+			(uuid "edd9bd40-2a38-44d3-9caa-2a79bd270320")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Xout_Joystick" input
+			(at 154.94 85.09 0)
+			(uuid "ab676796-a078-4a07-b611-0368c5152cf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Yout_Joystick" input
+			(at 154.94 87.63 0)
+			(uuid "982f86c8-745e-4aa3-b413-847ae7b25c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 154.94 90.17 0)
+			(uuid "0b5e2874-2349-44a6-8326-688a6983f271")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 154.94 92.71 0)
+			(uuid "158ead37-a21d-4e9b-8730-61ec6d4f34d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bypass" input
+			(at 154.94 102.87 0)
+			(uuid "b3ba5abc-14f3-4e91-af7f-0a8c02a782bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Output Select" input
+			(at 154.94 105.41 0)
+			(uuid "add81d8d-7eee-4455-b965-0db21545becc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Daisy to Guitar" input
+			(at 154.94 97.79 0)
+			(uuid "e430d1a0-1d6d-4923-b247-4d3b25b3c874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Guitar to Daisy" input
+			(at 154.94 100.33 0)
+			(uuid "45bc5167-73ec-4e35-87b8-2f247150f8d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "digital_and_recording"
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 70.485)
+		(size 16.51 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9870da14-8df9-4fc5-b968-74c758b24db3")
+		(property "Sheetname" "Connectors"
+			(at 180.34 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 180.594 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 180.34 121.92 180)
+			(uuid "58064278-398b-481f-8097-c80b88171d2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_Analog" input
+			(at 180.34 72.39 180)
+			(uuid "667ef896-844e-45f4-8020-d48acac4a97e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Daisy_RX" input
+			(at 180.34 74.93 180)
+			(uuid "21a1acb9-0ebd-46d3-bcb8-d7344e9e14ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Daisy_TX" input
+			(at 180.34 77.47 180)
+			(uuid "5486dd0b-8fa1-4bbe-812b-df9fad246480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Screen_Reset" input
+			(at 180.34 80.01 180)
+			(uuid "ec0cdb18-e479-4351-af7a-878fb4a5cb97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sel_Joystick" input
+			(at 180.34 82.55 180)
+			(uuid "ee52a280-34cb-4eae-9949-8418fedb0470")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Xout_Joystick" input
+			(at 180.34 85.09 180)
+			(uuid "78e86ce1-9a6b-43c8-a3cd-07b6a490f85d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Yout_Joystick" input
+			(at 180.34 87.63 180)
+			(uuid "a08ae108-7eac-4eb1-967b-7681d489bd76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" input
+			(at 180.34 90.17 180)
+			(uuid "fb2e6914-4e0b-4125-a57b-773e695dc5f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 180.34 92.71 180)
+			(uuid "c22a74ab-ef79-4760-9195-1bd20a2fcdca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 180.34 129.54 180)
+			(uuid "f31fa6c1-0f5a-4886-9522-d418c3de7964")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Bypass" input
+			(at 180.34 102.87 180)
+			(uuid "e1c64f58-84aa-44c1-82ef-a43e053a8b28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Daisy to Guitar" input
+			(at 180.34 97.79 180)
+			(uuid "c9825d73-2070-4c1c-b45e-28ebcc599b3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Guitar to Daisy" input
+			(at 180.34 100.33 180)
+			(uuid "7ec2e4c7-b50f-4e5d-8d2c-ea5b467acc81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Output Select" input
+			(at 180.34 105.41 180)
+			(uuid "a99cfd20-11b7-4a44-9bb9-38ceeb36d968")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "digital_and_recording"
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TMV_1205S")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/TMV_1205S/TMV_1205S.kicad_sym")(options "")(descr ""))
+  (lib (name "molex_2x1_39281023")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/molex_2x1_39281023/molex_2x1_39281023.kicad_sym")(options "")(descr ""))
+  (lib (name "Daisy-Boards")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/DaisyKiCad-main/Daisy-Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "TS12A12511DCNR")(type "KiCad")(uri "C:/Users/Owner/Desktop/ECE 4014/RGA/RGA_Boards/Digital and Recording Board/symbols/TS12A12511DCNR/TS12A12511DCNR.kicad_sym")(options "")(descr ""))
+)
