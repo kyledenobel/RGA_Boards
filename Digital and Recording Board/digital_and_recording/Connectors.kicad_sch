@@ -3941,16 +3941,6 @@
 		)
 		(uuid "7c94104f-05aa-4873-98a2-8a3df5679e1f")
 	)
-	(label "+5V"
-		(at 91.44 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92b2b903-dfec-4906-ba6a-7ff6354a8c7e")
-	)
 	(label "Headphones"
 		(at 259.08 133.35 0)
 		(effects
@@ -4031,6 +4021,17 @@
 			(justify left)
 		)
 		(uuid "1968d37e-f222-4d0c-b94a-4d83ca505303")
+	)
+	(hierarchical_label "+5V Recording"
+		(shape input)
+		(at 91.44 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "381e1d4f-3d71-4ed8-9b62-a2f9fbbfd22c")
 	)
 	(hierarchical_label "Daisy_TX"
 		(shape input)
@@ -4142,7 +4143,7 @@
 		)
 		(uuid "781e6971-5a68-4daa-b9b4-4eb598fb7206")
 	)
-	(hierarchical_label "-5V"
+	(hierarchical_label "-5V Switches"
 		(shape input)
 		(at 167.64 80.01 0)
 		(effects
@@ -4153,7 +4154,7 @@
 		)
 		(uuid "94c5a493-b70e-4eab-a226-4feb34fc4686")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+5V Switches"
 		(shape input)
 		(at 167.64 85.09 0)
 		(effects
