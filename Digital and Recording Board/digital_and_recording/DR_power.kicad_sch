@@ -1988,7 +1988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/RECOM-Power/R-78K5.0-0.5?qs=Jm2GQyTW%2Fbjx2N4NpeyrMA%3D%3D"
 			(at 114.3 91.44 0)
 			(effects
 				(font
@@ -2911,7 +2911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/RECOM-Power/R-78K5.0-0.5?qs=Jm2GQyTW%2Fbjx2N4NpeyrMA%3D%3D"
 			(at 113.03 142.24 0)
 			(effects
 				(font
