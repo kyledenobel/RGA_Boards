@@ -8930,8 +8930,8 @@
 			(uuid "a3801ab5-7354-42a4-a2aa-7aeea90c324a")
 		)
 		(fp_circle
-			(center -5.2578 0)
-			(end -4.8768 0)
+			(center -2 -3.5)
+			(end -1.619 -3.5)
 			(stroke
 				(width 0.508)
 				(type solid)
@@ -8941,8 +8941,8 @@
 			(uuid "e9cd5b1f-9264-4f34-9f63-990981b47875")
 		)
 		(fp_circle
-			(center -5.2578 0)
-			(end -4.8768 0)
+			(center -2 -3.5)
+			(end -1.619 -3.5)
 			(stroke
 				(width 0.508)
 				(type solid)
