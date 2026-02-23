@@ -1206,6 +1206,12 @@
 		(uuid "9f528510-19b7-47a0-99c6-6eed68dc1403")
 	)
 	(junction
+		(at 127 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01b2d827-2d58-4f4f-9e9e-e4ed35076ca1")
+	)
+	(junction
 		(at 133.35 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1519,6 +1525,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 36.83) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac62fc2-dc5a-42c0-9c55-9ec76e502454")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -1576,16 +1592,6 @@
 			(type default)
 		)
 		(uuid "5b8010e2-822c-478f-82f4-d9d5618c2991")
-	)
-	(wire
-		(pts
-			(xy 214.63 68.58) (xy 226.06 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8b65e6-5aba-48a4-85a6-620f8b10c726")
 	)
 	(wire
 		(pts
@@ -1659,6 +1665,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 71.12) (xy 226.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859d8480-22d3-443e-a82b-d4a77c3a7045")
+	)
+	(wire
+		(pts
 			(xy 83.82 113.03) (xy 133.35 113.03)
 		)
 		(stroke
@@ -1689,13 +1705,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 226.06 71.12)
+			(xy 127 41.91) (xy 127 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93b9a799-9267-4da5-ab54-514eeaf15349")
+		(uuid "961fc547-f713-4ae9-88e3-3f600aceab15")
+	)
+	(wire
+		(pts
+			(xy 114.3 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ee1152-b592-4a50-9eef-aaa2242ff61c")
 	)
 	(wire
 		(pts
@@ -1739,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 127 33.02)
+			(xy 127 53.34) (xy 127 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1767,9 +1793,19 @@
 		)
 		(uuid "d7750210-66d9-45f8-a1c0-510e4b083d95")
 	)
+	(wire
+		(pts
+			(xy 214.63 68.58) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de29e310-0a19-404a-b570-88716cd38b8d")
+	)
 	(hierarchical_label "Daisy to Guitar"
 		(shape input)
-		(at 127 41.91 180)
+		(at 114.3 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1868,7 +1904,7 @@
 	)
 	(hierarchical_label "Output Select"
 		(shape input)
-		(at 226.06 68.58 0)
+		(at 226.06 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1923,7 +1959,7 @@
 	)
 	(hierarchical_label "Bypass"
 		(shape input)
-		(at 226.06 71.12 0)
+		(at 226.06 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2026,7 +2062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daisy-Boards:DAISY_SEED"
+		(property "Footprint" "Kyle's Footprints:DAISY_SEED"
 			(at 193.04 107.95 0)
 			(effects
 				(font
@@ -2213,7 +2249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daisy-Boards:DAISY_SEED"
+		(property "Footprint" "Kyle's Footprints:DAISY_SEED"
 			(at 87.63 106.68 0)
 			(effects
 				(font

@@ -4441,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS12A12511DCNR:SOT65P280X145-8N"
+		(property "Footprint" "Kyle's Footprints:SOT65P280X145-8N"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -4648,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS12A12511DCNR:SOT65P280X145-8N"
+		(property "Footprint" "Kyle's Footprints:SOT65P280X145-8N"
 			(at 163.83 130.81 0)
 			(effects
 				(font
@@ -4922,7 +4922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 123.19 0)
 			(effects
 				(font
@@ -5454,7 +5454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 123.19 0)
 			(effects
 				(font
@@ -5590,7 +5590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 148.59 0)
 			(effects
 				(font
@@ -5726,7 +5726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 148.59 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.0452 148.59 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS12A12511DCNR:SOT65P280X145-8N"
+		(property "Footprint" "Kyle's Footprints:SOT65P280X145-8N"
 			(at 74.93 133.35 0)
 			(effects
 				(font
@@ -6467,7 +6467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.0452 123.19 0)
 			(effects
 				(font
