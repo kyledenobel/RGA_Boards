@@ -2724,6 +2724,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Normally Daisy Seed is NOT Bypassed. \nSet bypass pin voltage high to bypass Daisy Seed.\nBypass pin needs a internal pulldown resistor.\n"
 		(exclude_from_sim no)
@@ -2786,12 +2911,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53df319e-bee5-438e-883e-50da994444c9")
-	)
-	(junction
-		(at 91.44 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "632b984e-3670-4679-a8fe-6830076c2246")
 	)
 	(junction
 		(at 95.25 123.19)
@@ -3143,6 +3262,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 49.53) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3317cebb-4457-4bdb-938f-007b6eda66e7")
+	)
+	(wire
+		(pts
 			(xy 139.7 114.3) (xy 139.7 115.57)
 		)
 		(stroke
@@ -3170,16 +3299,6 @@
 			(type default)
 		)
 		(uuid "3bb43b1e-24f3-47bc-a2fa-10baf680115b")
-	)
-	(wire
-		(pts
-			(xy 91.44 49.53) (xy 91.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c42bad7-1298-4bd3-b7df-d981d7eb5722")
 	)
 	(wire
 		(pts
@@ -3513,16 +3632,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 137.16 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2889def-2ee5-478b-af23-524550d2844e")
-	)
-	(wire
-		(pts
 			(xy 80.01 55.88) (xy 85.09 55.88)
 		)
 		(stroke
@@ -3533,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 41.91) (xy 91.44 49.53)
+			(xy 91.44 41.91) (xy 91.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3793,6 +3902,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 49.53) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e3c843-696a-4cfc-b13e-9368f2295d4d")
+	)
+	(wire
+		(pts
 			(xy 58.42 78.74) (xy 58.42 81.28)
 		)
 		(stroke
@@ -4022,17 +4141,6 @@
 		)
 		(uuid "1968d37e-f222-4d0c-b94a-4d83ca505303")
 	)
-	(hierarchical_label "+5V Recording"
-		(shape input)
-		(at 91.44 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "381e1d4f-3d71-4ed8-9b62-a2f9fbbfd22c")
-	)
 	(hierarchical_label "Daisy_TX"
 		(shape input)
 		(at 85.09 53.34 0)
@@ -4197,6 +4305,72 @@
 			(justify left)
 		)
 		(uuid "d9fc7960-8dee-448c-b1b1-6f0bd921b43a")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "009472e0-d9e2-4e4f-a3a6-b4178e805141")
+		(property "Reference" "#PWR027"
+			(at 132.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_Rec"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fd48531-e658-4cf4-9d70-7c3974038dfe")
+		)
+		(instances
+			(project ""
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5828,6 +6002,72 @@
 			(project "digital_and_recording"
 				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 91.44 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f99965-4529-408d-b850-20904d020496")
+		(property "Reference" "#PWR026"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_Dig"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4943e1d2-fb15-42b1-b534-047f7e735f76")
+		)
+		(instances
+			(project ""
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
