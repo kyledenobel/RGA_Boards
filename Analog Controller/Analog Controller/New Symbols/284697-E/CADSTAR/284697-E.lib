@@ -1,0 +1,15 @@
+.284697-E :1 ;PCB Mount Header, Vertical, Cable-to-Board, 4 Position, 1.27 mm [.05 in] Centerline, Fully Shrouded, Gold (Au), Surface Mount, ERNI MiniBridge
+"284697E"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MP1" 6="MP2" 7="MP3" 8="MP4"
+*MXP 10
+*DFN 284697-E
+~!Mouser Part Number (305-284697)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-ERNI/284697-E?qs=t7xnP681wgXF7Zyqlk%252B7cQ%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (284697-E)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F284697-E%7FF%7Fpdf%7FEnglish%7FENG_CD_284697-E_F.pdf%7F284697-E)
+~!Height (6.1mm)
+"284697-E"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

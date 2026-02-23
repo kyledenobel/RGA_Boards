@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '284697_E'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "284697-E" (!) = "", "284697E", "Other", "305-284697", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-ERNI/284697-E?qs=t7xnP681wgXF7Zyqlk%252B7cQ%3D%3D", "PCB Mount Header, Vertical, Cable-to-Board, 4 Position, 1.27 mm [.05 in] Centerline, Fully Shrouded, Gold (Au), Surface Mount, ERNI MiniBridge", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F284697-E%7FF%7Fpdf%7FEnglish%7FENG_CD_284697-E_F.pdf%7F284697-E", "6.1 mm"
+END_PART
+
+END.

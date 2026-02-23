@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=284697-E
+PartCategory=Connector
+PackageCategory=Other
+PinCount=8
+Version=2.4
+Released=2024-08-30 12:48:00
+Downloaded=2026-02-23 20:13:28
+3D=N
