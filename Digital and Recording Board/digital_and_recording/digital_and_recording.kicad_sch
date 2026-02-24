@@ -10,12 +10,6 @@
 		(company "RGA")
 	)
 	(lib_symbols)
-	(junction
-		(at 120.65 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3866cd63-905c-4d73-a5bd-ddec78e74ee4")
-	)
 	(wire
 		(pts
 			(xy 100.33 85.09) (xy 116.84 85.09)
@@ -98,16 +92,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 121.92) (xy 120.65 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39bc197c-23d9-4871-bac6-1809f004aa9f")
-	)
-	(wire
-		(pts
 			(xy 111.76 130.81) (xy 180.34 130.81)
 		)
 		(stroke
@@ -155,16 +139,6 @@
 			(type default)
 		)
 		(uuid "617ef603-3f1c-472d-9f9d-420a0bdbe10e")
-	)
-	(wire
-		(pts
-			(xy 120.65 121.92) (xy 120.65 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6547b987-7a07-43a0-80d2-ea0a99bc88ac")
 	)
 	(wire
 		(pts
@@ -766,16 +740,6 @@
 		(pin "Output Select" input
 			(at 180.34 105.41 180)
 			(uuid "a99cfd20-11b7-4a44-9bb9-38ceeb36d968")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V Recording" input
-			(at 180.34 121.92 180)
-			(uuid "696e501d-a417-4892-a19d-415d1ddbee82")
 			(effects
 				(font
 					(size 1.27 1.27)
