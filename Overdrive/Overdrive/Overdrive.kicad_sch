@@ -6375,7 +6375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8400_8402_8403.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8400ARZ1-REEL/994213"
 			(at 246.38 114.3 0)
 			(effects
 				(font
