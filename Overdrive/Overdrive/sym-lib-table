@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "AD8400ARZ1")(type "KiCad")(uri "${KIPRJMOD}/symbols/AD8400ARZ1/AD8400ARZ1.kicad_sym")(options "")(descr ""))
   (lib (name "TL071HIDBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TL071/TL071HIDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "ADP7118AUJZ-4-5-R7")(type "KiCad")(uri "${KIPRJMOD}/symbols/ADP7118AUJZ-4-5-R7/ADP7118AUJZ-4-5-R7.kicad_sym")(options "")(descr ""))
 )

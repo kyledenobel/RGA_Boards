@@ -4,4 +4,5 @@
   (lib (name "tl071")(type "KiCad")(uri "${KIPRJMOD}/symbols/TL071/footprints.pretty")(options "")(descr ""))
   (lib (name "TL071")(type "KiCad")(uri "${KIPRJMOD}/symbols/TL071.pretty")(options "")(descr ""))
   (lib (name "AD8400ARZ1")(type "KiCad")(uri "${KIPRJMOD}/symbols/AD8400ARZ1.pretty")(options "")(descr ""))
+  (lib (name "ADP7118AUJZ-4-5-R7")(type "KiCad")(uri "${KIPRJMOD}/symbols/ADP7118AUJZ-4-5-R7/ADP7118AUJZ-4-5-R7.pretty")(options "")(descr ""))
 )
