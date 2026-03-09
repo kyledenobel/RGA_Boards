@@ -1852,6 +1852,10 @@
 		(uuid "588d9d12-0fbd-4ec5-96a4-324634db97ec")
 	)
 	(no_connect
+		(at 45.72 177.8)
+		(uuid "a0d8047e-0509-49d9-8f10-bb27bbca32d2")
+	)
+	(no_connect
 		(at 45.72 175.26)
 		(uuid "cbad3d93-a6ea-4a09-8c80-a32d50938105")
 	)
@@ -3271,16 +3275,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 177.8) (xy 45.72 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed126da8-5b15-4965-9ad8-2f309f2d6bce")
-	)
-	(wire
-		(pts
 			(xy 186.69 34.29) (xy 180.34 34.29)
 		)
 		(stroke
@@ -3468,16 +3462,6 @@
 			(justify right bottom)
 		)
 		(uuid "685e0967-bf06-4eb6-b5f3-7c171d3e6b99")
-	)
-	(label "CS1"
-		(at 43.18 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74135748-d1f3-4e61-91b9-df05d0e0d80d")
 	)
 	(label "GUITAR_IN"
 		(at 22.86 48.26 180)
@@ -5107,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 68.58 50.8 0)
 			(effects
 				(font
@@ -5654,7 +5638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 127 52.07 0)
 			(effects
 				(font
@@ -6130,7 +6114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -6184,6 +6168,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "865266d0-a5b2-4a27-83ca-a2e02f1f5224")
+		(property "Reference" "#PWR052"
+			(at 160.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.972 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da725a55-ba26-4651-97ae-008338ed0f8f")
+		)
+		(instances
+			(project "phase90"
+				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TL071HIDBVR:TL071HIDBVR")
 		(at 240.03 124.46 270)
 		(unit 1)
@@ -6208,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 240.03 124.46 0)
 			(effects
 				(font
@@ -7694,7 +7744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 243.84 50.8 0)
 			(effects
 				(font
@@ -7944,6 +7994,73 @@
 			(project "phase90"
 				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1e824e-e0be-41a5-9f11-963e1437c0d7")
+		(property "Reference" "#FLG04"
+			(at 151.765 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea3c3f3-b541-47ee-8215-e30fe372368b")
+		)
+		(instances
+			(project ""
+				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

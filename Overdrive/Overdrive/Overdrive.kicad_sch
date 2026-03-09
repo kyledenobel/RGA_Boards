@@ -6130,7 +6130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_8_ADI"
+		(property "Footprint" "footprints:R_8_ADI"
 			(at 241.808 98.806 0)
 			(effects
 				(font
@@ -6287,7 +6287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "TL071:TL071HIDBVR"
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23_DBV_5_TEX"
+		(property "Footprint" "TL071:TL071HIDBVR"
 			(at 121.92 106.68 0)
 			(effects
 				(font

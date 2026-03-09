@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TL071HIDBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TL071HIDBVR.kicad_sym")(options "")(descr ""))
   (lib (name "AD5162BRMZ2-5")(type "KiCad")(uri "${KIPRJMOD}/symbols/AD5162BRMZ2-5.kicad_sym")(options "")(descr ""))
+  (lib (name "AD5290YRMZ50-R7")(type "KiCad")(uri "${KIPRJMOD}/symbols/AD5290YRMZ50-R7/AD5290YRMZ50-R7.kicad_sym")(options "")(descr ""))
 )
