@@ -315,239 +315,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:TL071"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TL071"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "singel opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL071_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TL071_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 2.54 270)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "NULL"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -7.62 90)
-					(length 6.35)
-					(name "NULL"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x08_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -1921,6 +1688,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TL071HIDBVR:TL071HIDBVR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 15.24 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TL071HIDBVR"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT23_DBV_5_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tl071h"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TL071HIDBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT23_DBV_5_TEX SOT23_DBV_5_TEX-M SOT23_DBV_5_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL071HIDBVR_0_1"
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -3.81 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 8.89 270)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -8.89 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL071HIDBVR_1_1"
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 12.7 0) (xy 0 -6.35) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
 				(offset 0)
@@ -2559,10 +2512,22 @@
 		(uuid "116f05da-4748-4a7a-8544-3a91bb6b7bd0")
 	)
 	(junction
+		(at 111.76 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2759b4d0-08fd-4a63-80a9-e02c0e83d1df")
+	)
+	(junction
 		(at 73.66 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c13e969-65db-45c3-9ea3-dc89e7a1c62f")
+	)
+	(junction
+		(at 86.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eac0e70-4137-4342-9b4d-9ac03aad80e1")
 	)
 	(junction
 		(at 132.08 173.99)
@@ -2583,22 +2548,16 @@
 		(uuid "49286a61-2e7f-4733-84ef-77fda4614b8e")
 	)
 	(junction
+		(at 139.7 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "505d64fe-7cd6-4c0f-ad57-4ac1150fddf1")
+	)
+	(junction
 		(at 149.86 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50d17ffe-72d3-4b0c-a779-630da797c8c0")
-	)
-	(junction
-		(at 139.7 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "538d5dfa-9dc4-4c27-bd43-518275ac6587")
-	)
-	(junction
-		(at 86.36 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c84e482-d42c-464d-81c6-6a9fda1debe3")
 	)
 	(junction
 		(at 116.84 166.37)
@@ -2619,12 +2578,6 @@
 		(uuid "dcf49548-41ba-42e2-9b23-6bdc69b233fa")
 	)
 	(junction
-		(at 106.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed23aaa0-79a4-4689-acec-15ec884e2ac5")
-	)
-	(junction
 		(at 171.45 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2643,24 +2596,8 @@
 		(uuid "3025062e-d95f-46a7-8466-ae57e5c280d6")
 	)
 	(no_connect
-		(at 129.54 104.14)
-		(uuid "72a4162e-3119-4304-801e-238ea0375ab3")
-	)
-	(no_connect
-		(at 96.52 101.6)
-		(uuid "a0f5977c-94d4-483c-a4b2-f4902253a40d")
-	)
-	(no_connect
-		(at 99.06 101.6)
-		(uuid "d6f2de1e-ee2e-42fb-bb83-4f0df15ec5b5")
-	)
-	(no_connect
 		(at 44.45 165.1)
 		(uuid "da57634a-42da-4b51-aa8f-198f9101360a")
-	)
-	(no_connect
-		(at 127 104.14)
-		(uuid "e5c18769-73e8-4484-a677-7131938dfd20")
 	)
 	(wire
 		(pts
@@ -2671,16 +2608,6 @@
 			(type default)
 		)
 		(uuid "017f00d2-938f-4936-83aa-9ace55a5dc77")
-	)
-	(wire
-		(pts
-			(xy 139.7 113.03) (xy 139.7 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030b8c88-6cb3-4eba-809b-edde1d023760")
 	)
 	(wire
 		(pts
@@ -2774,16 +2701,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 99.06) (xy 115.57 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6000f9-67b5-42f9-9867-a5e8afbff95a")
-	)
-	(wire
-		(pts
 			(xy 82.55 74.93) (xy 85.09 74.93)
 		)
 		(stroke
@@ -2834,6 +2751,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 106.68) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db61ec1-9f32-446e-9122-ec81838c700a")
+	)
+	(wire
+		(pts
 			(xy 198.12 55.88) (xy 198.12 78.74)
 		)
 		(stroke
@@ -2854,13 +2781,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 91.44) (xy 88.9 91.44)
+			(xy 139.7 87.63) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "390a3347-09ef-479e-9093-39d0a879e7a6")
+		(uuid "3a5fc0bf-be7d-4aca-ae80-57be24118655")
 	)
 	(wire
 		(pts
@@ -2874,17 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4caa4f-aef7-44ad-b0ad-e0e599d1045c")
-	)
-	(wire
-		(pts
-			(xy 86.36 113.03) (xy 86.36 96.52)
+			(xy 86.36 96.52) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2914,13 +2831,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 119.38 93.98)
+			(xy 85.09 91.44) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "416f4398-a14f-4971-9787-13b23b9cc329")
+		(uuid "469298c0-9243-4561-878d-ea733624c343")
 	)
 	(wire
 		(pts
@@ -2944,7 +2861,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 106.68 113.03)
+			(xy 116.84 102.87) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5461c0e3-66e5-4bd3-b7ef-1d37ca1c38c0")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3034,16 +2961,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 113.03) (xy 139.7 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "648f89c0-adfd-431f-ae2b-5a91300b871c")
-	)
-	(wire
-		(pts
 			(xy 139.7 166.37) (xy 146.05 166.37)
 		)
 		(stroke
@@ -3051,16 +2968,6 @@
 			(type default)
 		)
 		(uuid "65241efa-5820-482c-a6a0-89d7a6a1f4e6")
-	)
-	(wire
-		(pts
-			(xy 106.68 113.03) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65cab655-34bf-4fbf-a55c-ad486efe695a")
 	)
 	(wire
 		(pts
@@ -3081,6 +2988,16 @@
 			(type default)
 		)
 		(uuid "6b1cfa9f-52b1-457e-b41e-565d6b7d746d")
+	)
+	(wire
+		(pts
+			(xy 111.76 113.03) (xy 111.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c702fa8-91e6-4192-a957-3e81384f085d")
 	)
 	(wire
 		(pts
@@ -3144,6 +3061,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 110.49) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8add3c06-3748-47a3-b763-1cc5365097bd")
+	)
+	(wire
+		(pts
 			(xy 54.61 90.17) (xy 54.61 93.98)
 		)
 		(stroke
@@ -3151,16 +3078,6 @@
 			(type default)
 		)
 		(uuid "8c4dadd9-2a0d-46ca-9d96-84e5acf3ef3c")
-	)
-	(wire
-		(pts
-			(xy 106.68 93.98) (xy 104.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ddb9652-094c-4730-9174-77c6f5d53bc4")
 	)
 	(wire
 		(pts
@@ -3211,6 +3128,16 @@
 			(type default)
 		)
 		(uuid "95c60feb-315d-451d-ab22-2c1f00b9621c")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96241497-b8eb-4f99-9025-04d5e4191b86")
 	)
 	(wire
 		(pts
@@ -3294,13 +3221,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 115.57 99.06)
+			(xy 116.84 87.63) (xy 139.7 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5065989-d9e4-4dc1-b2ca-7c6936ac4257")
+		(uuid "b4152b48-f2ff-45df-94bc-2093d852bb94")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 86.36 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7d486d-971a-4b23-b574-abf1289fe862")
 	)
 	(wire
 		(pts
@@ -3374,6 +3311,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 110.49) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c670b9-2b02-4455-9f3f-d6ab0253d760")
+	)
+	(wire
+		(pts
 			(xy 266.7 111.76) (xy 266.7 120.65)
 		)
 		(stroke
@@ -3441,16 +3388,6 @@
 			(type default)
 		)
 		(uuid "f7742bc0-2092-450f-8b4c-210825d017d5")
-	)
-	(wire
-		(pts
-			(xy 86.36 96.52) (xy 88.9 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f995426a-1b6a-4a6f-ab90-7aa34d26b5d7")
 	)
 	(label "SPI_CLK"
 		(at 226.06 102.87 180)
@@ -4519,7 +4456,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 124.46 88.9 0)
+		(at 127 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4528,7 +4465,7 @@
 		(fields_autoplaced yes)
 		(uuid "324ca59a-dcce-4f6c-847f-b7c00d191d35")
 		(property "Reference" "#PWR019"
-			(at 124.46 92.71 0)
+			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4474,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 124.46 83.82 0)
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 88.9 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 88.9 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 124.46 88.9 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 104.14 0)
+		(at 127 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4682,7 +4619,7 @@
 		(fields_autoplaced yes)
 		(uuid "387d0a01-4dc2-4934-a606-55da336e8897")
 		(property "Reference" "#PWR020"
-			(at 124.46 110.49 0)
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 109.22 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 104.14 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 104.14 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 104.14 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,92 +5411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL071")
-		(at 127 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ab6f219-93ca-407f-9b49-d30c4d656c79")
-		(property "Reference" "U4"
-			(at 135.89 90.0998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL071"
-			(at 135.89 92.6398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 127 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e510c520-2040-4f6a-a20a-a0c6bd62d8c9")
-		)
-		(pin "6"
-			(uuid "f02ab637-80df-42bd-8be9-76f9760a238a")
-		)
-		(pin "3"
-			(uuid "1ce47cf6-9135-443a-9693-b1073365afca")
-		)
-		(pin "5"
-			(uuid "4806c01e-7f83-416c-924f-b069d848e5fa")
-		)
-		(pin "7"
-			(uuid "679a6156-e610-4d6e-908c-db6f303cd1ea")
-		)
-		(pin "8"
-			(uuid "bdf1075e-f79f-4fc3-bc7b-4e34bc56a29e")
-		)
-		(pin "4"
-			(uuid "32b3caa2-2e4c-4ee0-9b77-589103c60549")
-		)
-		(pin "1"
-			(uuid "d970e67d-84d1-4850-af3d-a375967ca20d")
-		)
-		(instances
-			(project "Overdrive"
-				(path "/16ab0343-f0c4-4cb7-9692-c31e1945a5ed"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 123.19 180)
 		(unit 1)
@@ -6118,7 +5969,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 93.98 86.36 0)
+		(at 96.52 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6127,7 +5978,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e005384-b84f-49d2-ab17-3113d99fde29")
 		(property "Reference" "#PWR011"
-			(at 93.98 90.17 0)
+			(at 96.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +5987,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 93.98 81.28 0)
+			(at 96.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +5995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 86.36 0)
+			(at 96.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 86.36 0)
+			(at 96.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 93.98 86.36 0)
+			(at 96.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,92 +6097,6 @@
 			(project "Overdrive"
 				(path "/16ab0343-f0c4-4cb7-9692-c31e1945a5ed"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL071")
-		(at 96.52 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84bdcbec-13ce-49e8-95be-538bf711dfa8")
-		(property "Reference" "U3"
-			(at 105.41 87.5598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL071"
-			(at 105.41 90.0998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 100.33 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 96.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63ed1b6c-c24d-4411-b1ff-2eab3da531db")
-		)
-		(pin "6"
-			(uuid "0a7591be-db0d-4d06-b24e-bc536f5fb3c5")
-		)
-		(pin "3"
-			(uuid "51df5694-1b0e-4d51-9da7-7026be00b7e6")
-		)
-		(pin "5"
-			(uuid "249dae8c-c2be-4b4e-952c-372908a1be6d")
-		)
-		(pin "7"
-			(uuid "b2ee88c3-14ec-4beb-b8c5-cbd9c477f23e")
-		)
-		(pin "8"
-			(uuid "c69e2b36-1977-4433-b214-250b482ceb05")
-		)
-		(pin "4"
-			(uuid "0d9bf8ca-a851-44b3-893d-ee7e3d6eda67")
-		)
-		(pin "1"
-			(uuid "cdd9ad46-66f3-4f38-bfc0-bfb811eb924a")
-		)
-		(instances
-			(project ""
-				(path "/16ab0343-f0c4-4cb7-9692-c31e1945a5ed"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6498,6 +6263,84 @@
 		)
 	)
 	(symbol
+		(lib_id "TL071HIDBVR:TL071HIDBVR")
+		(at 91.44 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89026956-ffed-4ca1-aef7-30b9ca4d6875")
+		(property "Reference" "U6"
+			(at 102.87 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TL071HIDBVR"
+			(at 107.696 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23_DBV_5_TEX"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl071h"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d9f2d0d-8555-4b14-a684-8d0141bc0acb")
+		)
+		(pin "2"
+			(uuid "187d6433-c233-4ade-9890-f4c570889c6f")
+		)
+		(pin "1"
+			(uuid "5693791e-5f6c-4732-b96c-3fb8bde1fd54")
+		)
+		(pin "4"
+			(uuid "796ad12e-143f-43d8-a059-4556601ee7cd")
+		)
+		(pin "5"
+			(uuid "80860cdb-592d-4842-877a-ae7d23cb2f68")
+		)
+		(instances
+			(project ""
+				(path "/16ab0343-f0c4-4cb7-9692-c31e1945a5ed"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 120.65 0)
 		(unit 1)
@@ -6558,6 +6401,84 @@
 			(project "Overdrive"
 				(path "/16ab0343-f0c4-4cb7-9692-c31e1945a5ed"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL071HIDBVR:TL071HIDBVR")
+		(at 121.92 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eb32db0-6c41-4ea6-b62c-683d6eaa576b")
+		(property "Reference" "U3"
+			(at 130.302 99.568 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TL071HIDBVR"
+			(at 135.382 101.854 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23_DBV_5_TEX"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tl071h"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "024b1ed7-440a-43cf-b5d2-b8286a385463")
+		)
+		(pin "2"
+			(uuid "5161c931-4d33-4d10-9f8a-14928f7692f7")
+		)
+		(pin "1"
+			(uuid "9ca6186f-f46f-4603-8c36-35cb81eb2cc2")
+		)
+		(pin "4"
+			(uuid "3e53def4-8c5f-44b3-aab6-739663e6f0f3")
+		)
+		(pin "5"
+			(uuid "2a84c1ea-73aa-49fd-974b-4ad1a40dfdcb")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/16ab0343-f0c4-4cb7-9692-c31e1945a5ed"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7253,16 +7174,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 101.6 0)
+		(at 96.52 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6ec96c6-9570-4437-b55f-d4055db298ef")
 		(property "Reference" "#PWR012"
-			(at 93.98 107.95 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 106.68 0)
+			(at 94.742 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 101.6 0)
+			(at 96.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 101.6 0)
+			(at 96.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 101.6 0)
+			(at 96.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
