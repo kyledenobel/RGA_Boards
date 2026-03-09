@@ -1543,12 +1543,6 @@
 		(uuid "3b42f94d-6fb4-49b7-863d-4c767b82f2bc")
 	)
 	(junction
-		(at 326.39 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fb1fcfc-7cbe-42c9-b0ee-01efe8f80c0a")
-	)
-	(junction
 		(at 589.28 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1721,12 +1715,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6fe524c-efad-4414-8a77-5cc0236f2fc5")
-	)
-	(junction
-		(at 312.42 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1571af7-6514-40fb-99d4-9393efbe35f1")
 	)
 	(junction
 		(at 541.02 85.09)
@@ -2226,16 +2214,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 43.18) (xy 312.42 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa8231c-2c2f-442c-8e95-d4b125af13a3")
-	)
-	(wire
-		(pts
 			(xy 229.87 38.1) (xy 231.14 38.1)
 		)
 		(stroke
@@ -2356,16 +2334,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 48.26) (xy 314.96 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d95176e-6ae6-4ae3-802b-972c927ebe7a")
-	)
-	(wire
-		(pts
 			(xy 88.9 92.71) (xy 96.52 92.71)
 		)
 		(stroke
@@ -2453,16 +2421,6 @@
 			(type default)
 		)
 		(uuid "48ec6e8e-d35e-4c75-8d0f-b26235ffd4fb")
-	)
-	(wire
-		(pts
-			(xy 312.42 38.1) (xy 312.42 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cfb79de-2eff-46e9-abf7-af19f58e25ae")
 	)
 	(wire
 		(pts
@@ -2796,16 +2754,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 48.26) (xy 326.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c6ce75-0183-43dc-9a30-80fe0b5568d7")
-	)
-	(wire
-		(pts
 			(xy 228.6 43.18) (xy 229.87 43.18)
 		)
 		(stroke
@@ -3076,16 +3024,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 43.18) (xy 335.28 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e29379-7aeb-4b0e-be42-d5f03179fc23")
-	)
-	(wire
-		(pts
 			(xy 58.42 130.81) (xy 424.18 130.81)
 		)
 		(stroke
@@ -3166,26 +3104,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 38.1) (xy 326.39 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae60b140-00b0-4bbc-9bdb-cc40b689790c")
-	)
-	(wire
-		(pts
-			(xy 326.39 43.18) (xy 326.39 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef09141-18f7-4e6b-a2ff-272c435cf944")
-	)
-	(wire
-		(pts
 			(xy 378.46 44.45) (xy 378.46 36.83)
 		)
 		(stroke
@@ -3226,13 +3144,13 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 43.18) (xy 312.42 48.26)
+			(xy 311.15 43.18) (xy 335.28 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b63c59da-f377-4b54-80c2-f568a12c42a1")
+		(uuid "b604505b-9535-4733-88d6-b64ef5ddbc88")
 	)
 	(wire
 		(pts
@@ -3283,16 +3201,6 @@
 			(type default)
 		)
 		(uuid "baa53203-c13f-4974-b330-24c946f9f328")
-	)
-	(wire
-		(pts
-			(xy 326.39 38.1) (xy 326.39 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb12162c-69f9-429f-8f74-f263bccefbb8")
 	)
 	(wire
 		(pts
@@ -3783,16 +3691,6 @@
 			(type default)
 		)
 		(uuid "ee4792b7-19ae-4149-87ef-b819a7f60938")
-	)
-	(wire
-		(pts
-			(xy 312.42 38.1) (xy 313.69 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeaa4b2d-29a4-4a11-b1ce-7877dd3e17d0")
 	)
 	(wire
 		(pts
@@ -7194,94 +7092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "1N4148:1N4148W-13-F")
-		(at 325.12 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6395eb08-fc0d-4454-bec5-b35b2e50bacf")
-		(property "Reference" "CR2"
-			(at 320.04 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1N4148W-13-F"
-			(at 320.04 44.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "284867-E-footprint:SOD123_DIO"
-			(at 325.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "1N4148W-13-F"
-			(at 325.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 325.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 325.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "330c26ef-6f4c-45ef-a694-267574d920c8")
-		)
-		(pin "1"
-			(uuid "f8a4e3c9-56a9-4dc0-9f02-51b7d9269c54")
-		)
-		(instances
-			(project "BigMuffRipOff"
-				(path "/ee7a6669-1f80-4e5e-942b-cae2c32afcf3/cc61f787-c881-4bf8-bc84-97b283f90893"
-					(reference "CR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 576.58 90.17 90)
 		(unit 1)
@@ -8079,94 +7889,6 @@
 			(project "BigMuffRipOff"
 				(path "/ee7a6669-1f80-4e5e-942b-cae2c32afcf3/cc61f787-c881-4bf8-bc84-97b283f90893"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1N4148:1N4148W-13-F")
-		(at 313.69 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d903040-cacb-41eb-a18c-23bab56aaf87")
-		(property "Reference" "CR1"
-			(at 318.77 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1N4148W-13-F"
-			(at 318.77 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "284867-E-footprint:SOD123_DIO"
-			(at 313.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-13-F/1933928"
-			(at 313.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 313.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 313.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aff02a26-a0ed-42e1-9157-7c64962df15d")
-		)
-		(pin "1"
-			(uuid "d8ddec88-2532-49ab-ae3c-751f84068ae0")
-		)
-		(instances
-			(project ""
-				(path "/ee7a6669-1f80-4e5e-942b-cae2c32afcf3/cc61f787-c881-4bf8-bc84-97b283f90893"
-					(reference "CR1")
 					(unit 1)
 				)
 			)
