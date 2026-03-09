@@ -569,148 +569,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:R-78B1.5-2.0"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R-78B1.5-2.0"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dc-dc recom Step-Down DC/DC-Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*RECOM*R*78B*2.0*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R-78B1.5-2.0_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "R-78B1.5-2.0_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TL071HIDBVR:TL071HIDBVR"
 			(pin_names
 				(offset 0.254)
@@ -1226,18 +1084,6 @@
 		)
 	)
 	(rectangle
-		(start 34.925 147.32)
-		(end 95.885 187.325)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2cbfe7e3-0e32-4fa2-a654-982d95453b4d)
-	)
-	(rectangle
 		(start 113.792 150.622)
 		(end 148.844 185.42)
 		(stroke
@@ -1260,16 +1106,6 @@
 			(type none)
 		)
 		(uuid db4df855-07a5-4203-a2e3-003d89a96a11)
-	)
-	(text "12 to 3.3 Converter"
-		(exclude_from_sim no)
-		(at 65.786 151.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3269a5f3-e66a-4aa6-8d8b-735924d0e3cc")
 	)
 	(text "Triangle Wave Oscillator"
 		(exclude_from_sim no)
@@ -1326,12 +1162,6 @@
 		(uuid "2f3be278-a575-4632-ae93-e43fbd10b524")
 	)
 	(junction
-		(at 66.04 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36f385f5-7761-44c7-be23-4db6e65766a6")
-	)
-	(junction
 		(at 87.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1368,12 +1198,6 @@
 		(uuid "73ed3dd4-2aac-4713-9a22-7b39dad8aed5")
 	)
 	(junction
-		(at 50.8 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be822bf-e890-452b-a71b-6b804fcb4876")
-	)
-	(junction
 		(at 139.7 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1396,12 +1220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbfcaa6b-46e0-4faf-acc1-024b302f7aa5")
-	)
-	(junction
-		(at 80.01 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de7b2fec-f1d6-477b-b3da-d9efc0e1dafd")
 	)
 	(junction
 		(at 196.85 64.77)
@@ -1491,26 +1309,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 166.37) (xy 45.72 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ae44e1-7743-43d6-baea-db7fb0d1b63e")
-	)
-	(wire
-		(pts
-			(xy 50.8 170.18) (xy 58.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af436f1-f1a9-4e1d-af5e-b483d8de8fe2")
-	)
-	(wire
-		(pts
 			(xy 158.75 40.64) (xy 167.64 40.64)
 		)
 		(stroke
@@ -1518,16 +1316,6 @@
 			(type default)
 		)
 		(uuid "1c2de8dd-db15-49d8-a51a-1c48cde7c649")
-	)
-	(wire
-		(pts
-			(xy 45.72 170.18) (xy 50.8 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "233b4f2a-25cc-4b03-86ad-3cd4c2f00fc8")
 	)
 	(wire
 		(pts
@@ -1568,16 +1356,6 @@
 			(type default)
 		)
 		(uuid "2a362e9e-7d00-492f-a8b2-d68f7ff54a29")
-	)
-	(wire
-		(pts
-			(xy 85.09 166.37) (xy 85.09 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b438ebe-357d-4a44-ab6e-f61a41ae527e")
 	)
 	(wire
 		(pts
@@ -1638,16 +1416,6 @@
 			(type default)
 		)
 		(uuid "3933d522-9bf2-4d31-9340-684fbc2f9aa6")
-	)
-	(wire
-		(pts
-			(xy 50.8 177.8) (xy 66.04 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3cd655-8548-4691-988c-96ed0b498d4c")
 	)
 	(wire
 		(pts
@@ -1801,16 +1569,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 177.8) (xy 66.04 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f647188-0370-406a-930e-04f3c44e1555")
-	)
-	(wire
-		(pts
 			(xy 165.1 33.02) (xy 167.64 33.02)
 		)
 		(stroke
@@ -1881,16 +1639,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 177.8) (xy 80.01 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99db2ad5-f3cb-4674-8e10-16d6cef711bb")
-	)
-	(wire
-		(pts
 			(xy 205.74 49.53) (xy 205.74 64.77)
 		)
 		(stroke
@@ -1951,16 +1699,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 170.18) (xy 80.01 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17a6ba9-f617-4834-a189-7c25ecf19a75")
-	)
-	(wire
-		(pts
 			(xy 77.47 93.98) (xy 77.47 100.33)
 		)
 		(stroke
@@ -2018,16 +1756,6 @@
 			(type default)
 		)
 		(uuid "d809de50-6a37-4819-905c-490b5fc9926e")
-	)
-	(wire
-		(pts
-			(xy 85.09 170.18) (xy 80.01 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e18f9461-30ff-40d8-a763-10d7ea2d5341")
 	)
 	(wire
 		(pts
@@ -2418,76 +2146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 80.01 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "097bd84d-75e9-4928-9ea2-b29fb3da49dc")
-		(property "Reference" "C3"
-			(at 83.82 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 83.82 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 80.9752 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 80.01 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cacb3b09-d3a7-4a0c-a9ad-634ea9bd9aea")
-		)
-		(pin "1"
-			(uuid "8c3970f6-2f5b-462b-826e-c60cf24e0869")
-		)
-		(instances
-			(project "phase90"
-				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 167.64 90)
 		(unit 1)
@@ -2787,72 +2445,6 @@
 			(project "phase90"
 				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "233e2011-9df6-461c-9c7d-9896fa9e4bd8")
-		(property "Reference" "#PWR017"
-			(at 66.04 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f48272d6-2cbe-4c31-974c-02ae4aee491b")
-		)
-		(instances
-			(project "phase90"
-				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3534,144 +3126,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:R-78B1.5-2.0")
-		(at 66.04 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d8f9dc6-a485-4d90-92e5-85648c6b1f62")
-		(property "Reference" "U4"
-			(at 66.04 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RTB05W"
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT"
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/xp-power/RBT05W24S3V3/26667101"
-			(at 66.04 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
-			(at 66.04 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c875d6e9-48ff-4745-bffa-257ffdfffdaf")
-		)
-		(pin "2"
-			(uuid "1c112822-1020-4a12-a0a1-9de58b20e8d1")
-		)
-		(pin "3"
-			(uuid "75011163-eee8-44f3-9692-21b84506d9f1")
-		)
-		(instances
-			(project "phase90"
-				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 85.09 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "694b401d-cadb-407b-aa7f-c48e95456e21")
-		(property "Reference" "#PWR018"
-			(at 85.09 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 88.392 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 85.09 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "070991f8-2f85-4995-a74b-a2b238f4b4c4")
-		)
-		(instances
-			(project "phase90"
-				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 139.7 167.64 0)
 		(unit 1)
@@ -4203,75 +3657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 50.8 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcc46ca3-814d-463b-a7be-7ad88420c7e8")
-		(property "Reference" "C2"
-			(at 43.18 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 43.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 51.7652 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9dc32c3c-d1f7-40d7-9c7d-02c69d69e281")
-		)
-		(pin "1"
-			(uuid "bf27337d-cca1-49fe-ad72-e8860d2df156")
-		)
-		(instances
-			(project "phase90"
-				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 120.65 157.48 0)
 		(unit 1)
@@ -4331,72 +3716,6 @@
 			(project "phase90"
 				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 45.72 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca2feb27-c365-4ff6-b9f8-010be04b0e68")
-		(property "Reference" "#PWR016"
-			(at 45.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "12V"
-			(at 46.99 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 45.72 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2be82f35-ed5f-4681-9aab-8abbaed28084")
-		)
-		(instances
-			(project "phase90"
-				(path "/68e2c4ae-e968-491c-8ad8-cd53d3f65ea8/b579562d-372c-4e78-a5ab-285d8d60f2cf"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
