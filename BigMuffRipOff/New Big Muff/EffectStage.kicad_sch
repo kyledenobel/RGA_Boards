@@ -8120,7 +8120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1N4148W-13-F"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-13-F/1933928"
 			(at 313.69 38.1 0)
 			(effects
 				(font

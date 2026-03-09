@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Pots")(type "KiCad")(uri "${KIPRJMOD}/Pots.kicad_sym")(options "")(descr ""))
   (lib (name "Push-Push-SW")(type "KiCad")(uri "${KIPRJMOD}/Push-Push-SW.kicad_sym")(options "")(descr ""))
+  (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/ul_LM2940IMP-9-0-NOPB/KiCADv6/2026-03-09_16-32-57.kicad_sym")(options "")(descr ""))
 )
