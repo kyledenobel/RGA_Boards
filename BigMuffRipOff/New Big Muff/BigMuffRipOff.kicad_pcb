@@ -21031,7 +21031,7 @@
 		(uuid "6007b2b4-31bb-478d-a67a-19a595fa78f5")
 	)
 	(gr_text "BigMuff RipOff Rev 1.0\nMarco Yaipen\nMarch 9, 2026\n\n"
-		(at 138.2 78.2 0)
+		(at 143.8 78 0)
 		(layer "F.SilkS")
 		(uuid "d258c9ce-a02d-4772-a836-0c6ce7c4ec8e")
 		(effects
