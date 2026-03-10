@@ -343,6 +343,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Converter_ACDC:IRM-60-12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -617,6 +817,314 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GTSR_symbol_lib:AC025-D15"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AC025-D15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/247171/ac025-series-data-sheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AC025-D15_0_1"
+				(rectangle
+					(start -10.16 -1.27)
+					(end 11.43 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AC025-D15_1_1"
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "Frame_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "AC_Neutral"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "AC_Line"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "-Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -10.16 180)
+					(length 2.54)
+					(name "Com"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -15.24 180)
+					(length 2.54)
+					(name "+Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -937,18 +1445,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 15.621 18.542)
-		(end 103.505 73.787)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e4371ec8-f954-4fcb-aa8e-0b106cd1be3e)
-	)
 	(text "AC to 12V DC converter\n"
 		(exclude_from_sim no)
 		(at 29.21 21.59 0)
@@ -971,7 +1467,7 @@
 	)
 	(text "^We need to buy one of \nthese, wall mounted"
 		(exclude_from_sim no)
-		(at 30.48 65.405 0)
+		(at 32.5717 110.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -981,7 +1477,7 @@
 	)
 	(text "Connector for 12V LV bus"
 		(exclude_from_sim no)
-		(at 85.09 56.515 0)
+		(at 106.4614 89.9741 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -989,65 +1485,51 @@
 		)
 		(uuid "e67f3663-77a3-4edc-8bf6-48708d573e93")
 	)
+	(junction
+		(at 64.6598 68.192)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89449f57-b36e-43bc-9846-02099cd13eb3")
+	)
 	(wire
 		(pts
-			(xy 59.055 118.11) (xy 59.055 120.015)
+			(xy 64.135 29.845) (xy 64.135 20.3026)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07a6749c-6985-44d7-ab2c-ffdfc478b0b3")
+		(uuid "059ad752-5fb8-43ab-84d5-3374aeb5e0c8")
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 99.06 97.79)
+			(xy 74.9838 18.82) (xy 74.9838 20.3026)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b6950af-cf8c-46c0-844a-95d3f5d0af69")
+		(uuid "05a594db-6ed7-4ea0-bd59-b4707e6a9d6a")
 	)
 	(wire
 		(pts
-			(xy 78.105 77.47) (xy 78.105 79.375)
+			(xy 64.6598 65.652) (xy 64.6598 68.192)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0629ddc2-f72b-4ae6-8216-d256f7b00d5c")
+	)
+	(wire
+		(pts
+			(xy 79.429 90.9323) (xy 79.429 92.8373)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c9609b1-7475-474a-867a-7ccfe054e605")
-	)
-	(wire
-		(pts
-			(xy 64.135 27.94) (xy 64.135 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cef9950-1940-4e82-b796-5dccb66d2006")
-	)
-	(wire
-		(pts
-			(xy 100.33 74.295) (xy 96.52 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da306ad-939f-463f-87de-3c49de8e0bae")
-	)
-	(wire
-		(pts
-			(xy 57.785 52.07) (xy 57.785 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a89879-f4f7-4250-b2d2-15087f0fdac6")
 	)
 	(wire
 		(pts
@@ -1061,13 +1543,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 95.885) (xy 58.42 95.885)
+			(xy 137.5443 29.389) (xy 139.8519 29.389)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28628259-0fd2-4aa4-82f1-52d0494afa0b")
+		(uuid "24db5631-99be-4cd4-804d-d119baa8b572")
 	)
 	(wire
 		(pts
@@ -1081,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 73.025) (xy 58.42 75.565)
+			(xy 59.744 86.4873) (xy 59.744 89.0273)
 		)
 		(stroke
 			(width 0)
@@ -1101,47 +1583,37 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 76.835) (xy 96.52 76.835)
+			(xy 85.7558 113.8887) (xy 85.7558 115.7937)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35a220e3-aea4-45ec-9cb2-4b41ec78f775")
+		(uuid "34df8d2d-124b-400c-bdb2-6e5a4104f564")
 	)
 	(wire
 		(pts
-			(xy 79.375 93.98) (xy 79.375 96.52)
+			(xy 60.2017 113.8123) (xy 60.2017 115.7173)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40290cb8-df6d-4bed-9b7c-e5de17078beb")
+		(uuid "3d621198-712a-4048-b251-46135183eff1")
 	)
 	(wire
 		(pts
-			(xy 96.52 76.835) (xy 96.52 78.74)
+			(xy 64.135 20.3026) (xy 65.7762 20.3026)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40d1cdd9-140d-408e-8dbd-dc01507c08fa")
+		(uuid "4d8a55cd-11b9-485e-9941-a1ff6a157503")
 	)
 	(wire
 		(pts
-			(xy 61.595 54.61) (xy 57.785 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f7bb38e-d9de-4582-aa78-2e401cce21d4")
-	)
-	(wire
-		(pts
-			(xy 81.915 74.93) (xy 78.105 74.93)
+			(xy 83.239 88.3923) (xy 79.429 88.3923)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.105) (xy 58.42 80.01)
+			(xy 59.744 91.5673) (xy 59.744 93.4723)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 75.565) (xy 58.42 75.565)
+			(xy 63.554 89.0273) (xy 59.744 89.0273)
 		)
 		(stroke
 			(width 0)
@@ -1181,23 +1653,43 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 115.57) (xy 59.055 115.57)
+			(xy 175.4119 34.469) (xy 166.5219 34.469)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ec10665-cd4c-41a5-a78b-3983f637caa0")
+		(uuid "5f379ac7-ab35-4bf4-827b-12d5122d53cd")
 	)
 	(wire
 		(pts
-			(xy 78.105 72.39) (xy 78.105 74.93)
+			(xy 85.7558 108.8087) (xy 85.7558 111.3487)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f99f49-9e9b-4f32-860e-0432f576f393")
+	)
+	(wire
+		(pts
+			(xy 79.429 85.8523) (xy 79.429 88.3923)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "724c1509-3b19-4448-b7c0-e79df6660cef")
+	)
+	(wire
+		(pts
+			(xy 31.2926 47.2014) (xy 31.2926 49.7414)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bee811-a710-47c6-821b-c6c57765bc7d")
 	)
 	(wire
 		(pts
@@ -1211,87 +1703,97 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 98.425) (xy 58.42 98.425)
+			(xy 85.66 68.192) (xy 77.3598 68.192)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e75f04e-0fc7-405c-a983-f6d3c861275a")
+		(uuid "7ba1cdab-2c2b-441e-be15-0a83f881166a")
 	)
 	(wire
 		(pts
-			(xy 99.06 92.71) (xy 99.06 95.25)
+			(xy 181.08 29.389) (xy 166.5219 29.389)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81c6fff8-a19d-4fb1-aae9-e195b5b1a668")
+		(uuid "8b2cc756-0c5b-4ce5-bed6-0022d27538a5")
 	)
 	(wire
 		(pts
-			(xy 96.52 71.755) (xy 96.52 74.295)
+			(xy 60.2017 108.7323) (xy 60.2017 111.2723)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82ad23c6-f8ee-4f92-8e5f-7bc0686b05f9")
+		(uuid "8c85d217-8ec2-4ce3-9adc-605ef0aa4dbb")
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 99.06 99.695)
+			(xy 64.0117 113.8123) (xy 60.2017 113.8123)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d1347e3-e9c0-4beb-b0ab-e7c222bb5b35")
+		(uuid "918a59f7-e974-4581-8860-a2c1db3b1d54")
 	)
 	(wire
 		(pts
-			(xy 83.185 96.52) (xy 79.375 96.52)
+			(xy 89.5658 113.8887) (xy 85.7558 113.8887)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4f5b405-fe2f-411e-905d-e7c634234f4f")
+		(uuid "9b8dd41e-8e6e-4efc-8f9f-a040b97576cd")
 	)
 	(wire
 		(pts
-			(xy 79.375 99.06) (xy 79.375 100.965)
+			(xy 89.5658 111.3487) (xy 85.7558 111.3487)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7364b46-c7bd-48fa-9810-d00557111f60")
+		(uuid "a390d1d3-41c0-419e-946d-536879170f64")
 	)
 	(wire
 		(pts
-			(xy 83.185 99.06) (xy 79.375 99.06)
+			(xy 181.1236 39.549) (xy 166.5219 39.549)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a89459a9-6ca0-4e7d-bb01-c26ab087e452")
+		(uuid "a74e0d1c-a8d9-4da9-b03b-2f5311ba8709")
 	)
 	(wire
 		(pts
-			(xy 61.595 57.15) (xy 57.785 57.15)
+			(xy 64.6598 70.6007) (xy 64.6598 68.192)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acc12af6-e13f-49a2-bc9d-570013a3a379")
+		(uuid "aa260f23-520e-4c79-9f23-84ae36c7e8cd")
 	)
 	(wire
 		(pts
-			(xy 62.23 78.105) (xy 58.42 78.105)
+			(xy 137.5443 29.0574) (xy 137.5443 29.389)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0b438e-ad56-4835-99f2-265da0d9958f")
+	)
+	(wire
+		(pts
+			(xy 63.554 91.5673) (xy 59.744 91.5673)
 		)
 		(stroke
 			(width 0)
@@ -1311,33 +1813,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 95.25) (xy 99.06 95.25)
+			(xy 64.0117 111.2723) (xy 60.2017 111.2723)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b52ad1d0-8427-4156-80d3-50cc7681b711")
-	)
-	(wire
-		(pts
-			(xy 59.055 113.03) (xy 59.055 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3549c91-4181-48d5-901e-3a3a9dbc6b53")
-	)
-	(wire
-		(pts
-			(xy 58.42 93.345) (xy 58.42 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0414af7-9268-499d-b3ab-d0c309059bcb")
+		(uuid "c96247b2-1e7c-4269-982e-9b9fb216da6d")
 	)
 	(wire
 		(pts
@@ -1351,13 +1833,43 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 77.47) (xy 78.105 77.47)
+			(xy 83.239 90.9323) (xy 79.429 90.9323)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d62606f4-1d21-47e3-92d5-cdaa4213981d")
+	)
+	(wire
+		(pts
+			(xy 79.8909 65.652) (xy 77.3598 65.652)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c5d2be-4945-4cc2-9a12-394869c40f31")
+	)
+	(wire
+		(pts
+			(xy 74.9838 20.3026) (xy 73.3962 20.3026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8675a53-1dd1-4608-bda5-2ea4f84b2671")
+	)
+	(wire
+		(pts
+			(xy 132.5303 29.0574) (xy 137.5443 29.0574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3bc19c-3a14-4993-8a86-6f22a7b5efb1")
 	)
 	(wire
 		(pts
@@ -1369,38 +1881,8 @@
 		)
 		(uuid "de59bad7-1119-4153-b660-d1ea29fb7575")
 	)
-	(wire
-		(pts
-			(xy 57.785 57.15) (xy 57.785 59.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e18a6e75-e6ce-4194-b6b4-62dc7a7b71d1")
-	)
-	(wire
-		(pts
-			(xy 58.42 98.425) (xy 58.42 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e47a30eb-d9fe-4b75-ba0b-671dcfa605f0")
-	)
-	(wire
-		(pts
-			(xy 62.865 118.11) (xy 59.055 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd076dae-f948-43e4-8b41-589d440a4e4c")
-	)
 	(image
-		(at 30.099 51.054)
+		(at 32.1907 95.777)
 		(scale 0.0710319)
 		(uuid "956455e0-a064-4325-b26e-519e134535e3")
 		(data "iVBORw0KGgoAAAANSUhEUgAABJEAAAS0CAIAAABfTQ5gAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -9695,6 +10177,36 @@
 		)
 		(uuid "29cde9fc-3803-4bdf-96ad-79e044abd891")
 	)
+	(label "AC_Line"
+		(at 139.8519 39.549 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f6f651a-7112-4280-84f9-0c073e1d2ffb")
+	)
+	(label "AC_Neutral"
+		(at 139.8519 34.469 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e9db3b5-8451-4d19-b813-66e07e3d787d")
+	)
+	(label "Earth_GND"
+		(at 132.5303 26.5174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60a2a5b5-6661-4706-873d-4d6e4407fcae")
+	)
 	(label "AC_Neutral"
 		(at 32.385 37.465 0)
 		(effects
@@ -9705,282 +10217,28 @@
 		)
 		(uuid "aca35286-a548-46e8-b2a6-674cefb41867")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.055 120.015 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b8c6855-fd34-43ba-a567-8f5923404c94")
-		(property "Reference" "#PWR018"
-			(at 59.055 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(label "Earth_GND"
+		(at 31.2926 47.2014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "GND"
-			(at 59.055 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.055 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.055 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.055 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87686499-d1e4-40f5-96f2-df8ad0ddb768")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 79.375 100.965 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2129b875-8260-4e1b-9783-7ebddb25b89d")
-		(property "Reference" "#PWR014"
-			(at 79.375 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.375 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.375 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 79.375 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 79.375 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96329ee0-cc33-4b36-acb3-e55114dea8eb")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.785 59.055 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2abd096b-c875-4d57-9b64-b239462de6b1")
-		(property "Reference" "#PWR04"
-			(at 57.785 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.785 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.785 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.785 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e494ac9-7bc2-432a-93cf-34cfd9ee4d6b")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39175c7d-6fe1-4550-843e-47d79e769ee0")
-		(property "Reference" "#PWR010"
-			(at 96.52 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6870f1f-d166-4253-b73c-d075a4c5397c")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c0e834fe-b88f-4979-a339-dd6af6841e98")
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 79.375 93.98 0)
+		(at 85.7558 108.8087 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e32d251-111e-4794-a34b-e5bf35e2aa48")
-		(property "Reference" "#PWR013"
-			(at 79.375 97.79 0)
+		(uuid "1bf4063b-1f37-49c5-ba24-5b1ed0a8171a")
+		(property "Reference" "#PWR015"
+			(at 85.7558 112.6187 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9989,7 +10247,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 79.375 88.9 0)
+			(at 85.7558 103.7287 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +10255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.375 93.98 0)
+			(at 85.7558 108.8087 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +10264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.375 93.98 0)
+			(at 85.7558 108.8087 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 79.375 93.98 0)
+			(at 85.7558 108.8087 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,29 +10282,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c6b749e-7fe8-43b9-8ee0-b77a6bc02bd8")
+			(uuid "70eef1f7-b0b4-4cb3-9b2a-985eff35f41d")
 		)
 		(instances
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 59.055 113.03 0)
+		(lib_id "GTSR_symbol_lib:AC025-D15")
+		(at 152.5519 24.309 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47f895ef-850c-453d-8a74-a0d549770297")
-		(property "Reference" "#PWR017"
-			(at 59.055 116.84 0)
+		(uuid "2ddb0a41-27a5-4fde-bdb2-b98c34eb9d3e")
+		(property "Reference" "U1"
+			(at 153.1869 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC025-D24"
+			(at 153.1869 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GTSR_KiCAD_Footprints:AC025-D15"
+			(at 152.5519 24.309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,16 +10328,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 59.055 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.055 113.03 0)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/247171/ac025-series-data-sheet.pdf"
+			(at 152.5519 24.309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,17 +10337,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 59.055 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 59.055 113.03 0)
+		(property "Description" ""
+			(at 152.5519 24.309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,12 +10347,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bfd73c3-b99b-4dc6-b654-05ad315137fa")
+			(uuid "85836909-b4c7-4392-8b38-89a1c42248b1")
+		)
+		(pin "2"
+			(uuid "0a423593-4e4e-4b91-bb6c-1980bf6c913f")
+		)
+		(pin "3"
+			(uuid "970771af-bc61-45f2-a35f-efb062422187")
+		)
+		(pin "4"
+			(uuid "95a59c14-c245-48e4-bb15-01d1f4f68715")
+		)
+		(pin "6"
+			(uuid "2bf09b92-88c2-4f02-ac39-f213e5b942fa")
+		)
+		(pin "5"
+			(uuid "12e9653f-2e0b-4623-b5db-8de91611a939")
 		)
 		(instances
-			(project "Power Board"
+			(project ""
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR017")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10103,7 +10375,139 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 58.42 73.025 0)
+		(at 85.66 68.192 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34fe619f-7e7a-44a6-893f-eacbb0ae93b3")
+		(property "Reference" "#PWR012"
+			(at 85.66 72.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-24V"
+			(at 85.66 62.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.66 68.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.66 68.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 85.66 68.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d21bc43-b979-42ab-8a9b-bbf729d25ef8")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 181.1236 39.549 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3514c3c7-30c0-48d1-8bef-92224f7db5e4")
+		(property "Reference" "#PWR03"
+			(at 181.1236 43.359 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 181.1236 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.1236 39.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.1236 39.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 181.1236 39.549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5815277c-1276-4a5c-80b0-390d5e37ccca")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 59.744 86.4873 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10112,7 +10516,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a6cea1e-ff79-4eff-b049-9bc1cd068cf8")
 		(property "Reference" "#PWR05"
-			(at 58.42 76.835 0)
+			(at 59.744 90.2973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10525,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 58.42 67.945 0)
+			(at 59.744 81.4073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 73.025 0)
+			(at 59.744 86.4873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 73.025 0)
+			(at 59.744 86.4873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 73.025 0)
+			(at 59.744 86.4873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,17 +10572,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 96.52 71.755 0)
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 69.7398 65.652 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "509dd4f2-bd9b-41ef-af29-487b23642001")
-		(property "Reference" "#PWR09"
-			(at 96.52 75.565 0)
+		(uuid "4c2ca6d1-69b3-4214-ab47-b11805f96bf2")
+		(property "Reference" "J6"
+			(at 71.0098 59.7098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 71.0098 62.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76829-0004_2x02_P5.70mm_Vertical"
+			(at 69.7398 65.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,16 +10606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 96.52 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 71.755 0)
+		(property "Datasheet" "~"
+			(at 69.7398 65.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,8 +10615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 96.52 71.755 0)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.7398 65.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,88 +10624,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 96.52 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "069ce28f-209b-45db-beae-a8b78bda3371")
+		)
+		(pin "2"
+			(uuid "0c6e5e22-a8cb-4a7e-b953-725b6e1805b2")
 		)
 		(pin "1"
-			(uuid "56da47bf-779f-49c9-afb6-82b98d90a6dc")
+			(uuid "c737a350-d9cd-42fd-806f-04c8bfc16f1a")
+		)
+		(pin "4"
+			(uuid "a26c68bb-670d-4262-afe4-09777a730df4")
 		)
 		(instances
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 99.06 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b8fb739-3919-4d44-856c-d608951ed761")
-		(property "Reference" "#PWR015"
-			(at 99.06 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af240d7b-b559-4fb7-a617-69f72796158a")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR015")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10301,7 +10647,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.105 79.375 0)
+		(at 79.429 92.8373 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10310,7 +10656,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c3d4f71-d650-40f3-900a-d351e4fcd9c8")
 		(property "Reference" "#PWR08"
-			(at 78.105 85.725 0)
+			(at 79.429 99.1873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.105 83.82 0)
+			(at 79.429 97.2823 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.105 79.375 0)
+			(at 79.429 92.8373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 79.375 0)
+			(at 79.429 92.8373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.105 79.375 0)
+			(at 79.429 92.8373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,35 +10712,33 @@
 		)
 	)
 	(symbol
-		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 71.755 59.69 180)
+		(lib_id "power:GND")
+		(at 175.4119 34.469 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6da6c4a7-9fa6-4f10-ba2a-f686602439f7")
-		(property "Reference" "J5"
-			(at 71.755 60.452 0)
+		(uuid "62a2497c-9d5b-4fad-bf92-5327d52762af")
+		(property "Reference" "#PWR09"
+			(at 175.4119 40.819 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MINIFIT-2-VERT"
-			(at 71.755 49.53 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 71.755 59.69 0)
+		(property "Value" "GND"
+			(at 171.6326 36.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.4119 34.469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.755 59.69 0)
+			(at 175.4119 34.469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,8 +10755,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 71.755 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.4119 34.469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,15 +10765,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99e2f9e6-a3bf-447f-8c9c-243356e85570")
-		)
-		(pin "2"
-			(uuid "6559b73e-af95-4325-a581-cc301b05e1eb")
+			(uuid "a699cb0d-f932-4809-97e8-e9ac1a5cd736")
 		)
 		(instances
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "J5")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10437,7 +10778,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 92.075 80.01 180)
+		(at 93.399 93.4723 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10445,7 +10786,7 @@
 		(dnp no)
 		(uuid "727bff7a-b95e-40b4-acdc-0adf6f9e43ac")
 		(property "Reference" "J3"
-			(at 92.075 80.772 0)
+			(at 93.399 94.2343 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10454,7 +10795,7 @@
 			)
 		)
 		(property "Value" "MINIFIT-2-VERT"
-			(at 92.075 69.85 0)
+			(at 93.399 83.3123 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10464,7 +10805,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 92.075 80.01 0)
+			(at 93.399 93.4723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.075 80.01 0)
+			(at 93.399 93.4723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,7 +10823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.075 80.01 0)
+			(at 93.399 93.4723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,16 +10848,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 58.42 93.345 0)
+		(at 60.2017 108.7323 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "867abffd-66f4-4ecf-be76-2517e6b48f3e")
-		(property "Reference" "#PWR011"
-			(at 58.42 97.155 0)
+		(uuid "781bd1a4-af09-4eaa-b7e5-b7e08e8575a8")
+		(property "Reference" "#PWR013"
+			(at 60.2017 112.5423 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10866,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 58.42 88.265 0)
+			(at 60.2017 103.6523 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 93.345 0)
+			(at 60.2017 108.7323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 93.345 0)
+			(at 60.2017 108.7323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +10892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 93.345 0)
+			(at 60.2017 108.7323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10901,209 @@
 			)
 		)
 		(pin "1"
-			(uuid "537b912b-1be3-4391-8a40-782201bf8e88")
+			(uuid "5a205cb4-e5a9-4c16-83f3-d5d0ff3eb3a5")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
+		(at 21.1326 44.6614 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cdba59a-5c7b-4b7d-bba7-c3990aeb8a13")
+		(property "Reference" "J5"
+			(at 21.1326 43.8994 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MINIFIT-2-VERT"
+			(at 21.1326 54.8214 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 21.1326 44.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.1326 44.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.1326 44.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c01ed01-0c6f-4189-a643-af76f44d914c")
+		)
+		(pin "2"
+			(uuid "16c6bc98-a326-4e2e-a95f-265cad132c02")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.7558 115.7937 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ecb9baa-210e-43ad-be27-d2f4eecab224")
+		(property "Reference" "#PWR016"
+			(at 85.7558 122.1437 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.7558 120.2387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.7558 115.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.7558 115.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.7558 115.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a93b26c-d60b-4039-8161-6187d63d3d46")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 79.8909 65.652 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8895378d-d664-40b4-b37a-a5a31e12768d")
+		(property "Reference" "#PWR011"
+			(at 79.8909 69.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 79.8909 60.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.8909 65.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.8909 65.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 79.8909 65.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41aefa51-5035-4c83-99bb-f8e04b2ddb5e")
 		)
 		(instances
 			(project "Power Board"
@@ -10573,73 +11116,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 99.695 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fdf2059-f68f-436b-8101-028f2851e8ae")
-		(property "Reference" "#PWR016"
-			(at 99.06 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c0b1342-40c6-458a-8824-1c805ee27d1d")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 80.01 0)
+		(at 59.744 93.4723 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10648,7 +11125,7 @@
 		(fields_autoplaced yes)
 		(uuid "91faf867-3219-4096-b734-393bd891afa9")
 		(property "Reference" "#PWR06"
-			(at 58.42 86.36 0)
+			(at 59.744 99.8223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +11134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 84.455 0)
+			(at 59.744 97.9173 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +11142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 80.01 0)
+			(at 59.744 93.4723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +11151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 80.01 0)
+			(at 59.744 93.4723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +11160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 80.01 0)
+			(at 59.744 93.4723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,78 +11181,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 113.03 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92033c1b-f349-4bde-83e7-f8db3eaafaf5")
-		(property "Reference" "J9"
-			(at 113.03 101.092 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MINIFIT-2-VERT"
-			(at 113.03 90.17 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56857ca7-bd28-461f-b2ea-660ff2d392e0")
-		)
-		(pin "2"
-			(uuid "7b45be35-23ba-40fc-96be-2da43e5090bd")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 31.75 81.28 270)
+		(at 34.8303 117.9492 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10784,7 +11191,7 @@
 		(dnp no)
 		(uuid "99d6b269-db2d-4964-a207-f14b50192f49")
 		(property "Reference" "H2"
-			(at 34.29 81.915 90)
+			(at 37.3703 118.5842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +11200,7 @@
 			)
 		)
 		(property "Value" "No. 8"
-			(at 34.29 79.375 90)
+			(at 37.3703 116.0442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +11209,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 31.75 81.28 0)
+			(at 34.8303 117.9492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,7 +11218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 81.28 0)
+			(at 34.8303 117.9492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,7 +11227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 81.28 0)
+			(at 34.8303 117.9492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +11236,7 @@
 			)
 		)
 		(property "Populate" ""
-			(at 31.75 81.28 0)
+			(at 34.8303 117.9492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,76 +11247,6 @@
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 73.025 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0c2de96-ddef-427d-9fe1-7b380f7c5dda")
-		(property "Reference" "J10"
-			(at 73.025 121.412 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MINIFIT-2-VERT"
-			(at 73.025 110.49 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 73.025 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.025 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.025 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2236a56-c72a-4a8e-90bb-c0cb3a33048a")
-		)
-		(pin "2"
-			(uuid "59de8df6-7598-4ce2-bb14-c8cc6a507691")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10980,72 +11317,6 @@
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2340782-200b-481d-818d-07ba82b7041e")
-		(property "Reference" "#PWR012"
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eaa6bea6-438a-4fb2-a54c-ae91f6ab57ff")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11189,7 +11460,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 21.59 88.9 270)
+		(at 24.6703 125.5692 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11198,7 +11469,7 @@
 		(dnp no)
 		(uuid "b0e11602-110e-42ce-854e-fc817a676ec6")
 		(property "Reference" "H3"
-			(at 24.13 89.535 90)
+			(at 27.2103 126.2042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11478,7 @@
 			)
 		)
 		(property "Value" "No. 8"
-			(at 24.13 86.995 90)
+			(at 27.2103 123.6642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11487,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 21.59 88.9 0)
+			(at 24.6703 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 88.9 0)
+			(at 24.6703 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11505,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 88.9 0)
+			(at 24.6703 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11514,7 @@
 			)
 		)
 		(property "Populate" ""
-			(at 21.59 88.9 0)
+			(at 24.6703 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,144 +11531,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 93.345 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b17ae784-b450-46f1-ae08-26cfd8a6ad15")
-		(property "Reference" "J8"
-			(at 93.345 102.362 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MINIFIT-2-VERT"
-			(at 93.345 91.44 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 93.345 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.345 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.345 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d60db257-ca1a-407a-bb05-933cb4714cca")
-		)
-		(pin "2"
-			(uuid "5e2cabe8-02f0-4a4c-aa7e-ec3112ab0868")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 57.785 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc1b8a73-b051-493e-85ce-913eabc842f8")
-		(property "Reference" "#PWR03"
-			(at 57.785 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 57.785 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.785 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.785 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e477f46b-a978-4518-8345-cf5b76d458a0")
-		)
-		(instances
-			(project "Power Board"
-				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 31.75 88.9 270)
+		(at 34.8303 125.5692 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11406,7 +11541,7 @@
 		(dnp no)
 		(uuid "be11f5ee-4bb0-4004-96af-dcf83bcb0c54")
 		(property "Reference" "H4"
-			(at 34.29 89.535 90)
+			(at 37.3703 126.2042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11415,7 +11550,7 @@
 			)
 		)
 		(property "Value" "No. 8"
-			(at 34.29 86.995 90)
+			(at 37.3703 123.6642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11424,7 +11559,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 31.75 88.9 0)
+			(at 34.8303 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 88.9 0)
+			(at 34.8303 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 88.9 0)
+			(at 34.8303 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,7 +11586,7 @@
 			)
 		)
 		(property "Populate" ""
-			(at 31.75 88.9 0)
+			(at 34.8303 125.5692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,35 +11603,33 @@
 		)
 	)
 	(symbol
-		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 72.39 100.965 180)
+		(lib_id "Device:Fuse")
+		(at 69.5862 20.3026 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d413a7f6-8903-4de7-9962-4b654b7a3d1e")
-		(property "Reference" "J7"
-			(at 72.39 101.727 0)
+		(fields_autoplaced yes)
+		(uuid "c8793d78-0654-4fa0-82b2-313215e2742e")
+		(property "Reference" "F1"
+			(at 69.5862 14.2337 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "MINIFIT-2-VERT"
-			(at 72.39 90.805 0)
+		(property "Value" "Fuse"
+			(at 69.5862 16.7737 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 72.39 100.965 0)
+		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+			(at 69.5862 22.0806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,8 +11637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 100.965 0)
+		(property "Datasheet" "~"
+			(at 69.5862 20.3026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,25 +11646,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 100.965 0)
+		(property "Description" "Fuse"
+			(at 69.5862 20.3026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "a21252a6-15e4-402d-9cbc-bfc0f6ca4565")
 		)
 		(pin "2"
-			(uuid "08fa9f76-f92b-492a-a23c-1d97b9b9ee87")
+			(uuid "690056e9-0c26-4cb1-bf6e-bfc12ed0dd57")
+		)
+		(pin "1"
+			(uuid "17a60295-ad25-45a4-b582-982680b5b901")
 		)
 		(instances
-			(project "Power Board"
+			(project ""
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "J7")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11539,15 +11672,15 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 110.49 79.375 180)
+		(at 99.7258 116.4287 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d83e4cd7-1e40-4706-87fb-e8584d6e9482")
-		(property "Reference" "J6"
-			(at 110.49 80.137 0)
+		(uuid "d35a606e-739e-43c4-829e-462df7dbe6e2")
+		(property "Reference" "J9"
+			(at 99.7258 117.1907 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11556,7 +11689,7 @@
 			)
 		)
 		(property "Value" "MINIFIT-2-VERT"
-			(at 110.49 69.215 0)
+			(at 99.7258 106.2687 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11566,7 +11699,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 110.49 79.375 0)
+			(at 99.7258 116.4287 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11575,7 +11708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 79.375 0)
+			(at 99.7258 116.4287 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +11717,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 79.375 0)
+			(at 99.7258 116.4287 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11593,15 +11726,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f33bc7d-f787-4e26-b265-dad3631f0755")
+			(uuid "d3867b5f-0ef1-4a4d-9940-cff94ca1ef44")
 		)
 		(pin "2"
-			(uuid "a8d57c37-a87a-47d2-a032-dacae529efd5")
+			(uuid "9b479fb1-0f01-4e9d-80fc-1c6579bbc60d")
 		)
 		(instances
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11609,7 +11742,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 64.135 27.94 0)
+		(at 74.9838 18.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11618,7 +11751,7 @@
 		(fields_autoplaced yes)
 		(uuid "d95ff2fa-d380-4ba6-9244-a73b3ed06a4e")
 		(property "Reference" "#PWR01"
-			(at 64.135 31.75 0)
+			(at 74.9838 22.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +11760,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 64.135 22.86 0)
+			(at 74.9838 13.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +11768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.135 27.94 0)
+			(at 74.9838 18.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +11777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.135 27.94 0)
+			(at 74.9838 18.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +11786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 64.135 27.94 0)
+			(at 74.9838 18.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,35 +11807,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 21.59 81.28 270)
-		(mirror x)
+		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
+		(at 122.3703 23.9774 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddcba2f7-cb96-4e51-841a-4f0d40d36ee6")
-		(property "Reference" "H1"
-			(at 24.13 81.915 90)
+		(uuid "dd59661f-2682-41b4-84d4-f0ac52ab87fd")
+		(property "Reference" "J8"
+			(at 122.3703 23.2154 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "No. 8"
-			(at 24.13 79.375 90)
+		(property "Value" "MINIFIT-2-VERT"
+			(at 122.3703 34.1374 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.778 1.5113)
 				)
-				(justify left)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 21.59 81.28 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 122.3703 23.9774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11710,8 +11843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 21.59 81.28 0)
+		(property "Datasheet" ""
+			(at 122.3703 23.9774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11853,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 81.28 0)
+			(at 122.3703 23.9774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2465496-e63f-4821-aeb9-7d6bbdbcf3b0")
+		)
+		(pin "2"
+			(uuid "75125655-49e0-415e-b0b2-d375600ee302")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.6703 117.9492 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddcba2f7-cb96-4e51-841a-4f0d40d36ee6")
+		(property "Reference" "H1"
+			(at 27.2103 118.5842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "No. 8"
+			(at 27.2103 116.0442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 24.6703 117.9492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.6703 117.9492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.6703 117.9492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11932,7 @@
 			)
 		)
 		(property "Populate" ""
-			(at 21.59 81.28 0)
+			(at 24.6703 117.9492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,6 +11949,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.6598 70.6007 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1269f4a-2432-41c2-bcdb-379cda9862bd")
+		(property "Reference" "#PWR010"
+			(at 64.6598 76.9507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.6598 75.0457 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.6598 70.6007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.6598 70.6007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.6598 70.6007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9de0411-bddd-48b4-b43e-f7db8a18e53c")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.2017 115.7173 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e17c3ae4-7861-43e6-9e57-6a6fcaef357a")
+		(property "Reference" "#PWR014"
+			(at 60.2017 122.0673 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.2017 120.1623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.2017 115.7173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.2017 115.7173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.2017 115.7173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4565ab18-059e-431c-a577-f36386fa8de3")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Converter_ACDC:IRM-60-12")
 		(at 52.07 34.925 0)
 		(unit 1)
@@ -11756,7 +12091,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef673c19-cd0e-4f93-871e-9f32ac2dcfd3")
 		(property "Reference" "PS1"
-			(at 52.07 24.765 0)
+			(at 52.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +12099,7 @@
 			)
 		)
 		(property "Value" "IRM-60-12"
-			(at 52.07 27.305 0)
+			(at 52.07 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +12156,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 78.105 72.39 0)
+		(at 79.429 85.8523 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11830,7 +12165,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0798b80-b337-4247-ad7b-df36a985f866")
 		(property "Reference" "#PWR07"
-			(at 78.105 76.2 0)
+			(at 79.429 89.6623 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +12174,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 78.105 67.31 0)
+			(at 79.429 80.7723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +12182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.105 72.39 0)
+			(at 79.429 85.8523 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +12191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 72.39 0)
+			(at 79.429 85.8523 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,7 +12200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 78.105 72.39 0)
+			(at 79.429 85.8523 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +12222,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 72.39 80.645 180)
+		(at 73.714 94.1073 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11895,7 +12230,7 @@
 		(dnp no)
 		(uuid "f11e6750-1973-4bb1-96ef-7f62ad3529c9")
 		(property "Reference" "J2"
-			(at 72.39 81.407 0)
+			(at 73.714 94.8693 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11904,7 +12239,7 @@
 			)
 		)
 		(property "Value" "MINIFIT-2-VERT"
-			(at 72.39 70.485 0)
+			(at 73.714 83.9473 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11914,7 +12249,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 72.39 80.645 0)
+			(at 73.714 94.1073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +12258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 80.645 0)
+			(at 73.714 94.1073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +12267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 80.645 0)
+			(at 73.714 94.1073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,6 +12285,142 @@
 			(project "Power Board"
 				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
+		(at 74.1717 116.3523 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f53a72c9-3524-49fe-a757-5f828ee794d6")
+		(property "Reference" "J7"
+			(at 74.1717 117.1143 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MINIFIT-2-VERT"
+			(at 74.1717 106.1923 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+			(at 74.1717 116.3523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.1717 116.3523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.1717 116.3523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b12a06f-f7f2-469f-aef6-06cb94fb6988")
+		)
+		(pin "2"
+			(uuid "ae139081-8ef6-4946-a67c-1c831675ff81")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 181.08 29.389 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe730d38-6a5c-4755-8f8f-6f2abccf8f14")
+		(property "Reference" "#PWR04"
+			(at 181.08 33.199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-24V"
+			(at 181.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.08 29.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.08 29.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 181.08 29.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a1f376-97f7-47e4-b6be-99069aedc907")
+		)
+		(instances
+			(project "Power Board"
+				(path "/b862db06-3b94-42c5-82ca-516fa52bc818"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
