@@ -3862,7 +3862,7 @@
 		)
 		(uuid "fe7266e9-3c6c-4555-9c20-6f0d079e7882")
 	)
-	(hierarchical_label "CS_1"
+	(hierarchical_label "sustain_CS"
 		(shape input)
 		(at 134.62 85.09 180)
 		(effects
@@ -3917,7 +3917,7 @@
 		)
 		(uuid "1fcce3cf-2499-469f-a24c-5810d19eac85")
 	)
-	(hierarchical_label "CS_2"
+	(hierarchical_label "tone_CS"
 		(shape input)
 		(at 356.87 72.39 180)
 		(effects
@@ -3961,7 +3961,7 @@
 		)
 		(uuid "8aba3ea5-369c-4d70-9ff6-0870fe9e09b9")
 	)
-	(hierarchical_label "CS_4"
+	(hierarchical_label "Volume_CS_2"
 		(shape input)
 		(at 447.04 143.51 180)
 		(effects
@@ -3994,7 +3994,7 @@
 		)
 		(uuid "eabca510-baa6-47f8-9c53-28761f4e22d8")
 	)
-	(hierarchical_label "CS_3"
+	(hierarchical_label "volume_CS_1"
 		(shape input)
 		(at 445.77 90.17 180)
 		(effects

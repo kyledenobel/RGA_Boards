@@ -2024,36 +2024,6 @@
 				(justify right)
 			)
 		)
-		(pin "CS_1" input
-			(at 203.2 97.79 180)
-			(uuid "cd46a7ab-5c5b-4481-8309-1f1de3c138ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CS_2" input
-			(at 203.2 101.6 180)
-			(uuid "18db08b0-7329-402e-941e-a9a74ae78cd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CS_3" input
-			(at 203.2 105.41 180)
-			(uuid "9a5d104d-b144-480e-8029-c91cc4d5cbd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI_CLK" input
 			(at 203.2 90.17 180)
 			(uuid "48db919d-0514-402d-886f-e99fde4ef7c3")
@@ -2064,9 +2034,9 @@
 				(justify left)
 			)
 		)
-		(pin "CS_4" input
-			(at 203.2 109.22 180)
-			(uuid "779a44d4-653c-4bc7-aad1-42784d640ad3")
+		(pin "SPI_MOSI" input
+			(at 203.2 93.98 180)
+			(uuid "50bbc7bc-d7d2-4fce-b88e-08af01015195")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,9 +2044,39 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MOSI" input
-			(at 203.2 93.98 180)
-			(uuid "50bbc7bc-d7d2-4fce-b88e-08af01015195")
+		(pin "sustain_CS" input
+			(at 203.2 97.79 180)
+			(uuid "61550c0c-486f-4bbd-a13a-647b18ba78db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "tone_CS" input
+			(at 203.2 101.6 180)
+			(uuid "8c023785-d4ba-4b15-a26e-991fafd2d559")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "volume_CS_1" input
+			(at 203.2 105.41 180)
+			(uuid "cd200907-d477-4b08-82ba-7392d2182da1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Volume_CS_2" input
+			(at 203.2 109.22 180)
+			(uuid "0b9f67c0-f60f-4051-8cb3-539df904dc78")
 			(effects
 				(font
 					(size 1.27 1.27)
