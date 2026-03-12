@@ -513,6 +513,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GTSR_symbol_lib:2068320801_Molex"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1927,6 +2051,12 @@
 		(uuid "d34e76c9-a7ae-447c-a350-be1b93d65936")
 	)
 	(junction
+		(at 238.76 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd7ead71-8538-4754-934c-889ced33a8d2")
+	)
+	(junction
 		(at 143.51 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2137,6 +2267,16 @@
 			(type default)
 		)
 		(uuid "46ac6f72-b200-48e4-af42-194d69bcf4d5")
+	)
+	(wire
+		(pts
+			(xy 238.76 35.56) (xy 245.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad4dd66-0d35-4adc-8a0d-fc6800bd25e0")
 	)
 	(wire
 		(pts
@@ -2520,6 +2660,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 35.56) (xy 238.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec42359f-e5a8-4de2-8f55-57a63aaacbdc")
+	)
+	(wire
+		(pts
 			(xy 92.71 123.19) (xy 95.25 123.19)
 		)
 		(stroke
@@ -2709,7 +2859,7 @@
 		(uuid "b0379246-e2db-4fb5-9f33-cd9d5a5952bc")
 	)
 	(label "Guitar_In"
-		(at 252.73 35.56 180)
+		(at 231.14 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3274,6 +3424,76 @@
 			(project "digital_and_recording"
 				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "148fd1fd-c575-464e-9dfc-900330f86a3e")
+		(property "Reference" "C14"
+			(at 242.57 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 242.57 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 239.7252 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9793c15a-c2fc-4db6-b571-ffee10a55146")
+		)
+		(pin "1"
+			(uuid "a41dcb2d-179c-4cd7-8e58-79f299fa3cd8")
+		)
+		(instances
+			(project ""
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4509,6 +4729,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 238.76 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d57d19-ba6b-448d-a608-b796534f7cd2")
+		(property "Reference" "#PWR030"
+			(at 238.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e805fb1c-c917-4874-9642-d56b3b6a7f82")
+		)
+		(instances
+			(project "digital_and_recording"
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
 		(at 266.7 55.88 180)
 		(unit 1)
@@ -4573,6 +4859,74 @@
 			(project "digital_and_recording"
 				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be7c7d8-d186-46af-912c-f24f5548b2ef")
+		(property "Reference" "R7"
+			(at 248.92 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "240"
+			(at 248.92 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 248.92 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6bc434e-08a6-4dc0-9f5b-2ddc948a534a")
+		)
+		(pin "2"
+			(uuid "34437266-17d8-4d87-a0e3-5361ec98dd8c")
+		)
+		(instances
+			(project ""
+				(path "/5074a352-7a9b-47ff-bda0-b973f990e136/9870da14-8df9-4fc5-b968-74c758b24db3"
+					(reference "R7")
 					(unit 1)
 				)
 			)
