@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerbs/pre amp/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

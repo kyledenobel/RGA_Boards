@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerbs/analog controller/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
