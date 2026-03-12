@@ -3807,6 +3807,12 @@
 		(uuid "88b10b36-5cf5-458a-b104-e99311d710a2")
 	)
 	(junction
+		(at 288.0675 123.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "943b5c3a-2626-4cad-bf1c-aeaf8861475f")
+	)
+	(junction
 		(at 323.6675 75.7827)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3913,6 +3919,16 @@
 	(no_connect
 		(at 336.3675 75.7827)
 		(uuid "f33f1a35-2e69-452f-b879-5c7638b473c6")
+	)
+	(wire
+		(pts
+			(xy 284.8438 123.134) (xy 288.0675 123.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0221e4eb-b797-4471-adb4-09b42ed24a83")
 	)
 	(wire
 		(pts
@@ -4176,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.0675 125.1891) (xy 288.0675 123.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2343db0b-b04f-45de-a9b9-400399195943")
+	)
+	(wire
+		(pts
 			(xy 222.1768 66.011) (xy 222.1768 63.5)
 		)
 		(stroke
@@ -4366,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.2327 123.134) (xy 277.2238 123.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a95de7a-e0c6-4ce6-9aa2-78de30c2428d")
+	)
+	(wire
+		(pts
 			(xy 43.18 123.19) (xy 58.42 123.19)
 		)
 		(stroke
@@ -4443,6 +4479,16 @@
 			(type default)
 		)
 		(uuid "59e90b43-c357-4753-ab8f-020a0b24e813")
+	)
+	(wire
+		(pts
+			(xy 288.0675 132.8091) (xy 288.0675 130.2691)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c85459d-2605-42b7-9f08-e9fa2b35d499")
 	)
 	(wire
 		(pts
@@ -4676,6 +4722,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.0675 123.134) (xy 299.6327 123.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f66331-95e2-49da-8a1b-b6f1f1de7361")
+	)
+	(wire
+		(pts
 			(xy 62.865 83.185) (xy 65.405 83.185)
 		)
 		(stroke
@@ -4776,6 +4832,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.2327 123.19) (xy 274.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9839bff4-9eff-4fa1-bd8c-ca263a77d6ba")
+	)
+	(wire
+		(pts
 			(xy 151.5768 86.2164) (xy 151.5768 84.1974)
 		)
 		(stroke
@@ -4863,6 +4929,16 @@
 			(type default)
 		)
 		(uuid "a62b5759-f611-43f7-9351-0ca240397501")
+	)
+	(wire
+		(pts
+			(xy 274.2327 123.134) (xy 274.2327 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e0776f-d4ea-453b-a25f-288ece7afb77")
 	)
 	(wire
 		(pts
@@ -5096,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 125.73) (xy 288.29 128.27)
+			(xy 299.6327 125.674) (xy 299.6327 128.214)
 		)
 		(stroke
 			(width 0)
@@ -5313,16 +5389,6 @@
 			(type default)
 		)
 		(uuid "ff1f4e4b-26c7-4d80-a914-fbd96e424b4a")
-	)
-	(wire
-		(pts
-			(xy 274.32 123.19) (xy 288.29 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff88ed16-acc1-41da-9a48-05074a9a22b2")
 	)
 	(label "ES_1"
 		(at 39.5697 45.534 0)
@@ -5945,7 +6011,7 @@
 		(uuid "f433d2f1-216b-4f37-8f09-5dc278a0248a")
 	)
 	(label "To_Dig_Board"
-		(at 275.59 123.19 0)
+		(at 286.9327 123.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7299,7 +7365,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-Revision8-eagle-import:MINIFIT-2-VERT")
-		(at 298.45 128.27 180)
+		(at 309.7927 128.214 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7307,7 +7373,7 @@
 		(dnp no)
 		(uuid "174fa0e7-05a0-4bb9-b47d-a4d0645525df")
 		(property "Reference" "J4"
-			(at 298.45 129.032 0)
+			(at 309.7927 128.976 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7316,7 +7382,7 @@
 			)
 		)
 		(property "Value" "MINIFIT-2-VERT"
-			(at 298.45 118.11 0)
+			(at 309.7927 118.054 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7326,7 +7392,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 298.45 128.27 0)
+			(at 309.7927 128.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 128.27 0)
+			(at 309.7927 128.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 128.27 0)
+			(at 309.7927 128.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +8944,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 128.27 0)
+		(at 299.6327 128.214 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8887,7 +8953,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dcaffa5-9abd-443d-806f-33f6e2b12b51")
 		(property "Reference" "#PWR017"
-			(at 288.29 134.62 0)
+			(at 299.6327 134.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +8962,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 288.29 133.35 0)
+			(at 299.6327 133.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +8970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 128.27 0)
+			(at 299.6327 128.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +8979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 128.27 0)
+			(at 299.6327 128.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +8988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 288.29 128.27 0)
+			(at 299.6327 128.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,6 +10039,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 288.0675 127.7291 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50470d1d-b241-45ee-abd7-57a8cfae30ec")
+		(property "Reference" "C1"
+			(at 282.9155 126.4991 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 282.9155 129.0391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 288.0675 127.7291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.0675 127.7291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 288.0675 127.7291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36b768d6-8571-4b58-950c-979c9b77c229")
+		)
+		(pin "2"
+			(uuid "75925faa-7efa-4c02-abe1-2847568f0c51")
+		)
+		(instances
+			(project "Analog Controller"
+				(path "/1bac89ce-58dc-4152-afeb-ef1b4a92587d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Converter_DCDC:TMA-1205D")
 		(at 209.55 60.96 0)
 		(unit 1)
@@ -10841,6 +10976,73 @@
 			(project "Analog Controller"
 				(path "/1bac89ce-58dc-4152-afeb-ef1b4a92587d"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 281.0338 123.134 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ec584e7-b6ab-40f4-b614-58a4d7dd976e")
+		(property "Reference" "R9"
+			(at 281.0338 120.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "240"
+			(at 281.0338 118.689 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 280.7798 124.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-3AEB471V/1465846"
+			(at 281.0338 123.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 281.0338 123.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "737aa537-e19f-43df-bcfd-4c926f800eb6")
+		)
+		(pin "2"
+			(uuid "c418cc09-7c30-444c-9403-44defc89651d")
+		)
+		(instances
+			(project "Analog Controller"
+				(path "/1bac89ce-58dc-4152-afeb-ef1b4a92587d"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13785,6 +13987,72 @@
 			(project "Analog Controller"
 				(path "/1bac89ce-58dc-4152-afeb-ef1b4a92587d"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.0675 132.8091 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb30d9b-994f-4b49-83cc-bbf96e6aba25")
+		(property "Reference" "#PWR01"
+			(at 288.0675 139.1591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.0675 137.8891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.0675 132.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.0675 132.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.0675 132.8091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "570bec95-2fec-4df7-8893-3d49ed30694d")
+		)
+		(instances
+			(project "Analog Controller"
+				(path "/1bac89ce-58dc-4152-afeb-ef1b4a92587d"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
