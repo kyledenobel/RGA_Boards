@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Power Board-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Power Board-eagle-import.kicad_sym")(options "")(descr ""))
+)
