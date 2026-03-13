@@ -501,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "../../gerbs/power board/",
+      "plot": "../../gerbs/power pt2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
