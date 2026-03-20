@@ -1,0 +1,24 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C2",2,2.2u,,,,Capacitor_SMD:C_0603_1608Metric,~
+"C3,C6,C9,C11,C12,C13,C14,C15",8,1u,,,,Capacitor_SMD:C_0603_1608Metric,~
+"C4,C7,C10",3,22u,,,,Capacitor_SMD:C_0603_1608Metric,~
+C5,1,100u,,,,Capacitor_SMD:C_1206_3216Metric,~
+C8,1,0.3u,,,,Capacitor_SMD:C_0603_1608Metric,~
+"D1,D2,D3,D4,D5",5,1N4148W,,,,Diode_SMD:D_SOD-123,https://www.vishay.com/docs/85748/1n4148w.pdf
+J1,1,Conn_02x08_Odd_Even,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal,~
+"Q1,Q2",2,2N3904,,,,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+"R1,R2,R5",3,10k,,,,Resistor_SMD:R_0603_1608Metric,~
+R3,1,1M,,,,Resistor_SMD:R_0603_1608Metric,~
+"R4,R10",2,1k,,,,Resistor_SMD:R_0603_1608Metric,~
+R6,1,100k,,,,Resistor_SMD:R_0603_1608Metric,~
+R7,1,130k,,,,Resistor_SMD:R_0603_1608Metric,~
+R8,1,18k,,,,Resistor_SMD:R_0603_1608Metric,~
+R9,1,100,,,,Resistor_SMD:R_0603_1608Metric,~
+R11,1,40k,,,,Resistor_SMD:R_0603_1608Metric,~
+R12,1,36k,,,,Resistor_SMD:R_0603_1608Metric,~
+R13,1,6.2k,,,,Resistor_SMD:R_0603_1608Metric,~
+R14,1,9k,,,,Resistor_SMD:R_0603_1608Metric,~
+"U1,U3,U6",3,TL071HIDBVR,,,,TL071:TL071HIDBVR,https://www.ti.com/lit/gpn/tl071h
+U2,1,AD5160,,,,Package_TO_SOT_SMD:SOT-23-8,https://www.analog.com/media/en/technical-documentation/data-sheets/AD5160.pdf
+U4,1,ADP7118AUJZ-4.5-R7,,,,ADP7118AUJZ-4-5-R7:UJ-5_ADI,https://www.analog.com/media/en/technical-documentation/data-sheets/adp7118.pdf
+U5,1,AD8400ARZ1,,,,footprints:R_8_ADI,https://www.digikey.com/en/products/detail/analog-devices-inc/AD8400ARZ1-REEL/994213

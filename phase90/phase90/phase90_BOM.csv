@@ -1,0 +1,21 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,1,0.82u,,,,Capacitor_SMD:C_0603_1608Metric,~
+"C2,C4,C6,C7,C8,C9",6,0.1u,,,,Capacitor_SMD:C_0603_1608Metric,~
+"C3,C10,C11,C12,C13,C14,C15,C16,C17,C18",10,1u,,,,Capacitor_SMD:C_0603_1608Metric,~
+C5,1,100u,,,,Capacitor_SMD:C_0603_1608Metric,~
+J1,1,Conn_02x08_Odd_Even,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal,~
+"Q1,Q2,Q3,Q4",4,Q_NJFET_DSG,,,,Package_TO_SOT_THT:TO-92,~
+"R1,R2,R7,R8,R37,R39,R40",7,10k,,,,Resistor_SMD:R_0603_1608Metric,~
+"R3,R9,R41",3,1M,,,,Resistor_SMD:R_0603_1608Metric,~
+"R4,R38",2,2k,,,,Resistor_SMD:R_0603_1608Metric,~
+R5,1,3k,,,,Resistor_SMD:R_0603_1608Metric,~
+R6,1,150k,,,,Resistor_SMD:R_0603_1608Metric,~
+R10,1,9k,,,,Resistor_SMD:R_0603_1608Metric,~
+R11,1,15k,,,,Resistor_SMD:R_0603_1608Metric,~
+"R12,R13,R15,R19,R20,R24,R25,R29,R30,R34",10,1k,,,,Resistor_SMD:R_0603_1608Metric,~
+R14,1,2.4k,,,,Resistor_SMD:R_0603_1608Metric,~
+"R16,R22,R27,R32",4,6.2k,,,,Resistor_SMD:R_0603_1608Metric,~
+"R17,R18,R21,R23,R26,R28,R31,R33",8,510,,,,Resistor_SMD:R_0603_1608Metric,~
+"R35,R36",2,20k,,,,Resistor_SMD:R_0603_1608Metric,~
+"U1,U2,U3,U5,U6,U7,U8,U9,U10,U11",10,TL071HIDBVR,,,,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/gpn/tl071h
+U12,1,AD5290,,,,Package_SO:MSOP-10_3x3mm_P0.5mm,https://www.digikey.com/en/products/detail/analog-devices-inc/AD5290YRMZ50-R7/1217962
