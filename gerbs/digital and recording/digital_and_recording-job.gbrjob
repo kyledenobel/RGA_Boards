@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2026-03-12T14:42:41-04:00"
+    "CreationDate": "2026-03-16T14:16:26-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Power Board",
-      "GUID": "506f7765-7220-4426-9f61-72642e6b6963",
+      "Name": "digital_and_recording",
+      "GUID": "64696769-7461-46c5-9f61-6e645f726563",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 149.91,
-      "Y": 20.37
+      "X": 47.05,
+      "Y": 106.35
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -24,74 +24,75 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.127,
-      "PadToTrack": 0.127,
-      "TrackToTrack": 0.127,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.127,
-      "PadToTrack": 0.127,
-      "TrackToTrack": 0.127,
-      "TrackToRegion": 0.6,
-      "RegionToRegion": 0.6
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Power Board-F_Cu.gbr",
+      "Path": "digital_and_recording-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-In1_Cu.gbr",
+      "Path": "digital_and_recording-In1_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-In2_Cu.gbr",
+      "Path": "digital_and_recording-In2_Cu.gbr",
       "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-B_Cu.gbr",
+      "Path": "digital_and_recording-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-F_Paste.gbr",
+      "Path": "digital_and_recording-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-B_Paste.gbr",
+      "Path": "digital_and_recording-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-F_Silkscreen.gbr",
+      "Path": "digital_and_recording-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-B_Silkscreen.gbr",
+      "Path": "digital_and_recording-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Power Board-F_Mask.gbr",
+      "Path": "digital_and_recording-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Power Board-B_Mask.gbr",
+      "Path": "digital_and_recording-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Power Board-Edge_Cuts.gbr",
+      "Path": "digital_and_recording-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
